@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador Thomas</title>
+  <meta name="description" content="Simulador de treino para os testes Thomas GIA, PPA e HPTI.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e3a8a'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='19' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'] },
+          colors: { brand: { 50: '#eef2ff', 100: '#e0e7ff', 500: '#3b5bdb', 600: '#2f4ac0', 700: '#1e3a8a', 800: '#172e6e', 900: '#0f1f4d' } }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100">
+  <header id="site-header" class="border-b border-slate-200 bg-white/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900/80">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+      <a href="#/" class="flex items-center gap-2 font-semibold text-brand-700 dark:text-brand-100">
+        <span class="grid h-8 w-8 place-items-center rounded-lg bg-brand-700 text-white">R</span>
+        <span>Simulador Thomas</span>
+      </a>
+      <nav class="flex gap-4 text-sm text-slate-600 dark:text-slate-300">
+        <a href="#/" class="hover:text-brand-700 dark:hover:text-white">Início</a>
+        <a href="#/historico" class="hover:text-brand-700 dark:hover:text-white">Histórico</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="mx-auto max-w-5xl px-4 py-8" aria-live="polite">
+    <p class="text-slate-500">A carregar…</p>
+  </main>
+
+  <footer id="site-footer" class="mx-auto max-w-5xl px-4 pb-8 text-xs text-slate-400 dark:text-slate-500">
+    Ferramenta de treino independente, sem qualquer ligação à Thomas International. Os resultados não são normativos e não substituem uma avaliação oficial.
+  </footer>
+
+  <noscript><p class="p-4">Este simulador precisa de JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

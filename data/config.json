@@ -1,0 +1,13 @@
+{
+  "gia": {
+    "ordem": ["raciocinio", "velocidade_percetiva", "numerica", "palavras", "espacial"],
+    "tempos_seg": {
+      "raciocinio": 300,
+      "velocidade_percetiva": 240,
+      "numerica": 120,
+      "palavras": 180,
+      "espacial": 180
+    },
+    "penalizacao_erro": 0.25
+  }
+}

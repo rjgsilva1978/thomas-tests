@@ -1,0 +1,144 @@
+{
+  "nome_teste": "Simulador Thomas PPA",
+  "instrucoes": "Em cada grupo de 4 palavras, escolha uma que MAIS o descreve e uma que MENOS o descreve no ambiente de trabalho.",
+  "questoes": [
+    { "id": 1, "opcoes": [
+      { "id_opcao": "1A", "palavra": "Competitivo", "fator": "D" },
+      { "id_opcao": "1B", "palavra": "Entusiasta", "fator": "I" },
+      { "id_opcao": "1C", "palavra": "Amigável", "fator": "S" },
+      { "id_opcao": "1D", "palavra": "Lógico", "fator": "C" } ] },
+    { "id": 2, "opcoes": [
+      { "id_opcao": "2A", "palavra": "Pioneiro", "fator": "D" },
+      { "id_opcao": "2B", "palavra": "Persuasivo", "fator": "I" },
+      { "id_opcao": "2C", "palavra": "Paciente", "fator": "S" },
+      { "id_opcao": "2D", "palavra": "Meticuloso", "fator": "C" } ] },
+    { "id": 3, "opcoes": [
+      { "id_opcao": "3A", "palavra": "Assertivo", "fator": "D" },
+      { "id_opcao": "3B", "palavra": "Sociável", "fator": "I" },
+      { "id_opcao": "3C", "palavra": "Calmo", "fator": "S" },
+      { "id_opcao": "3D", "palavra": "Disciplinado", "fator": "C" } ] },
+    { "id": 4, "opcoes": [
+      { "id_opcao": "4A", "palavra": "Determinado", "fator": "D" },
+      { "id_opcao": "4B", "palavra": "Expressivo", "fator": "I" },
+      { "id_opcao": "4C", "palavra": "Leal", "fator": "S" },
+      { "id_opcao": "4D", "palavra": "Cauteloso", "fator": "C" } ] },
+    { "id": 5, "opcoes": [
+      { "id_opcao": "5A", "palavra": "Ousado", "fator": "D" },
+      { "id_opcao": "5B", "palavra": "Comunicativo", "fator": "I" },
+      { "id_opcao": "5C", "palavra": "Tranquilo", "fator": "S" },
+      { "id_opcao": "5D", "palavra": "Preciso", "fator": "C" } ] },
+    { "id": 6, "opcoes": [
+      { "id_opcao": "6A", "palavra": "Exigente", "fator": "D" },
+      { "id_opcao": "6B", "palavra": "Otimista", "fator": "I" },
+      { "id_opcao": "6C", "palavra": "Prestável", "fator": "S" },
+      { "id_opcao": "6D", "palavra": "Rigoroso", "fator": "C" } ] },
+    { "id": 7, "opcoes": [
+      { "id_opcao": "7A", "palavra": "Direto", "fator": "D" },
+      { "id_opcao": "7B", "palavra": "Carismático", "fator": "I" },
+      { "id_opcao": "7C", "palavra": "Ponderado", "fator": "S" },
+      { "id_opcao": "7D", "palavra": "Sistemático", "fator": "C" } ] },
+    { "id": 8, "opcoes": [
+      { "id_opcao": "8A", "palavra": "Decidido", "fator": "D" },
+      { "id_opcao": "8B", "palavra": "Extrovertido", "fator": "I" },
+      { "id_opcao": "8C", "palavra": "Compreensivo", "fator": "S" },
+      { "id_opcao": "8D", "palavra": "Analítico", "fator": "C" } ] },
+    { "id": 9, "opcoes": [
+      { "id_opcao": "9A", "palavra": "Ambicioso", "fator": "D" },
+      { "id_opcao": "9B", "palavra": "Inspirador", "fator": "I" },
+      { "id_opcao": "9C", "palavra": "Cooperante", "fator": "S" },
+      { "id_opcao": "9D", "palavra": "Organizado", "fator": "C" } ] },
+    { "id": 10, "opcoes": [
+      { "id_opcao": "10A", "palavra": "Audaz", "fator": "D" },
+      { "id_opcao": "10B", "palavra": "Animado", "fator": "I" },
+      { "id_opcao": "10C", "palavra": "Constante", "fator": "S" },
+      { "id_opcao": "10D", "palavra": "Cumpridor", "fator": "C" } ] },
+    { "id": 11, "opcoes": [
+      { "id_opcao": "11A", "palavra": "Independente", "fator": "D" },
+      { "id_opcao": "11B", "palavra": "Popular", "fator": "I" },
+      { "id_opcao": "11C", "palavra": "Estável", "fator": "S" },
+      { "id_opcao": "11D", "palavra": "Perfecionista", "fator": "C" } ] },
+    { "id": 12, "opcoes": [
+      { "id_opcao": "12A", "palavra": "Firme", "fator": "D" },
+      { "id_opcao": "12B", "palavra": "Espontâneo", "fator": "I" },
+      { "id_opcao": "12C", "palavra": "Sereno", "fator": "S" },
+      { "id_opcao": "12D", "palavra": "Correto", "fator": "C" } ] },
+    { "id": 13, "opcoes": [
+      { "id_opcao": "13A", "palavra": "Enérgico", "fator": "D" },
+      { "id_opcao": "13B", "palavra": "Convincente", "fator": "I" },
+      { "id_opcao": "13C", "palavra": "Atencioso", "fator": "S" },
+      { "id_opcao": "13D", "palavra": "Diplomático", "fator": "C" } ] },
+    { "id": 14, "opcoes": [
+      { "id_opcao": "14A", "palavra": "Autoconfiante", "fator": "D" },
+      { "id_opcao": "14B", "palavra": "Divertido", "fator": "I" },
+      { "id_opcao": "14C", "palavra": "Previsível", "fator": "S" },
+      { "id_opcao": "14D", "palavra": "Exato", "fator": "C" } ] },
+    { "id": 15, "opcoes": [
+      { "id_opcao": "15A", "palavra": "Corajoso", "fator": "D" },
+      { "id_opcao": "15B", "palavra": "Simpático", "fator": "I" },
+      { "id_opcao": "15C", "palavra": "Bondoso", "fator": "S" },
+      { "id_opcao": "15D", "palavra": "Reservado", "fator": "C" } ] },
+    { "id": 16, "opcoes": [
+      { "id_opcao": "16A", "palavra": "Persistente", "fator": "D" },
+      { "id_opcao": "16B", "palavra": "Encantador", "fator": "I" },
+      { "id_opcao": "16C", "palavra": "Moderado", "fator": "S" },
+      { "id_opcao": "16D", "palavra": "Criterioso", "fator": "C" } ] },
+    { "id": 17, "opcoes": [
+      { "id_opcao": "17A", "palavra": "Teimoso", "fator": "D" },
+      { "id_opcao": "17B", "palavra": "Impulsivo", "fator": "I" },
+      { "id_opcao": "17C", "palavra": "Indeciso", "fator": "S" },
+      { "id_opcao": "17D", "palavra": "Desconfiado", "fator": "C" } ] },
+    { "id": 18, "opcoes": [
+      { "id_opcao": "18A", "palavra": "Agressivo", "fator": "D" },
+      { "id_opcao": "18B", "palavra": "Exibicionista", "fator": "I" },
+      { "id_opcao": "18C", "palavra": "Passivo", "fator": "S" },
+      { "id_opcao": "18D", "palavra": "Crítico", "fator": "C" } ] },
+    { "id": 19, "opcoes": [
+      { "id_opcao": "19A", "palavra": "Impaciente", "fator": "D" },
+      { "id_opcao": "19B", "palavra": "Desorganizado", "fator": "I" },
+      { "id_opcao": "19C", "palavra": "Acomodado", "fator": "S" },
+      { "id_opcao": "19D", "palavra": "Pessimista", "fator": "C" } ] },
+    { "id": 20, "opcoes": [
+      { "id_opcao": "20A", "palavra": "Autoritário", "fator": "D" },
+      { "id_opcao": "20B", "palavra": "Superficial", "fator": "I" },
+      { "id_opcao": "20C", "palavra": "Submisso", "fator": "S" },
+      { "id_opcao": "20D", "palavra": "Distante", "fator": "C" } ] },
+    { "id": 21, "opcoes": [
+      { "id_opcao": "21A", "palavra": "Arrojado", "fator": "D" },
+      { "id_opcao": "21B", "palavra": "Influente", "fator": "I" },
+      { "id_opcao": "21C", "palavra": "Dedicado", "fator": "S" },
+      { "id_opcao": "21D", "palavra": "Formal", "fator": "C" } ] },
+    { "id": 22, "opcoes": [
+      { "id_opcao": "22A", "palavra": "Vigoroso", "fator": "D" },
+      { "id_opcao": "22B", "palavra": "Envolvente", "fator": "I" },
+      { "id_opcao": "22C", "palavra": "Gentil", "fator": "S" },
+      { "id_opcao": "22D", "palavra": "Metódico", "fator": "C" } ] },
+    { "id": 23, "opcoes": [
+      { "id_opcao": "23A", "palavra": "Desafiante", "fator": "D" },
+      { "id_opcao": "23B", "palavra": "Jovial", "fator": "I" },
+      { "id_opcao": "23C", "palavra": "Sossegado", "fator": "S" },
+      { "id_opcao": "23D", "palavra": "Escrupuloso", "fator": "C" } ] },
+    { "id": 24, "opcoes": [
+      { "id_opcao": "24A", "palavra": "Resoluto", "fator": "D" },
+      { "id_opcao": "24B", "palavra": "Eloquente", "fator": "I" },
+      { "id_opcao": "24C", "palavra": "Tolerante", "fator": "S" },
+      { "id_opcao": "24D", "palavra": "Cuidadoso", "fator": "C" } ] }
+  ],
+  "interpretacao": {
+    "D": {
+      "alto": "Orientado para resultados e desafios. Decide depressa, assume o controlo, aceita riscos e gosta de competir. Sob pressão pode tornar-se impaciente ou demasiado direto.",
+      "baixo": "Prefere cooperar a competir e evita confrontos. Pondera antes de decidir e sente-se mais confortável quando a autoridade e os objetivos estão bem definidos."
+    },
+    "I": {
+      "alto": "Orientado para as pessoas. Comunicativo, otimista e persuasivo, cria relações com facilidade e motiva os outros. Pode dispersar-se ou descurar o detalhe.",
+      "baixo": "Reservado e factual nas relações profissionais. Prefere dados e lógica a apelos emocionais e trabalha bem de forma independente, sem precisar de reconhecimento social."
+    },
+    "S": {
+      "alto": "Paciente, leal e consistente. Valoriza a estabilidade, um ritmo previsível e o trabalho em equipa. Ouve bem os outros, mas pode resistir a mudanças rápidas.",
+      "baixo": "Gosta de variedade e de mudança, reage depressa e lida bem com várias tarefas em simultâneo. Pode mostrar impaciência com rotinas e processos lentos."
+    },
+    "C": {
+      "alto": "Preciso, sistemático e orientado para a qualidade. Segue regras e procedimentos, analisa os factos antes de agir e evita erros. Pode ser excessivamente crítico ou cauteloso.",
+      "baixo": "Independente e flexível face a regras e procedimentos. Prefere uma visão global ao detalhe e sente-se confortável a improvisar quando a situação o exige."
+    }
+  }
+}

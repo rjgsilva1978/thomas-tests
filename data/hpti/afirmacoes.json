@@ -1,0 +1,105 @@
+{
+  "nome_teste": "Simulador Thomas HPTI",
+  "escala": [
+    "Discordo totalmente",
+    "Discordo",
+    "Discordo ligeiramente",
+    "Neutro",
+    "Concordo ligeiramente",
+    "Concordo",
+    "Concordo totalmente"
+  ],
+  "tracos": {
+    "conscienciosidade": {
+      "nome": "Conscienciosidade",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Tende a trabalhar de forma pouco estruturada e pode ter dificuldade em cumprir planos e prazos. Beneficia de rotinas, listas de tarefas e acompanhamento regular." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Organiza-se quando é necessário, mas planear não é o seu motor principal. É flexível, embora possa deixar pontas soltas em projetos longos." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Disciplinado e orientado para objetivos, planeia com rigor sem perder a flexibilidade. Perfil típico de líderes que entregam resultados de forma consistente." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Risco de microgestão e de perfecionismo paralisante. Pode ter dificuldade em delegar e em aceitar soluções “suficientemente boas”." }
+      ]
+    },
+    "ajustamento": {
+      "nome": "Ajustamento",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Sente a pressão e as críticas de forma intensa, o que pode afetar as decisões em momentos de stress. Estratégias de gestão de stress e apoio próximo ajudam." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Lida razoavelmente com a pressão do dia a dia, mas períodos prolongados de stress podem afetar o seu equilíbrio e clareza." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Resiliente e estável emocionalmente: mantém a clareza sob pressão e recupera depressa de contratempos, sem perder a sensibilidade aos outros." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Risco de parecer apático, frio ou desligado das dificuldades da equipa. Pode subestimar sinais de alerta por estar sempre demasiado tranquilo." }
+      ]
+    },
+    "curiosidade": {
+      "nome": "Curiosidade",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Prefere métodos comprovados e pode resistir a novas abordagens ou tecnologias. Destaca-se em contextos estáveis, mas pode perder oportunidades de inovação." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Aberto a novidades quando trazem um benefício claro, mas não procura ativamente a mudança. Equilibra o conhecido com o novo." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Procura novas ideias e formas de melhorar processos, mantendo o foco no que é útil. Adapta-se bem a mudanças estratégicas e tecnológicas." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Risco de dispersão: pode mudar de ideia ou de projeto com frequência e aborrecer-se com a execução e com as rotinas necessárias." }
+      ]
+    },
+    "risco": {
+      "nome": "Abordagem ao Risco",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Tende a evitar conflitos e decisões difíceis, adiando-as. Pode deixar problemas por resolver para manter a harmonia." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Enfrenta situações difíceis quando é inevitável, mas prefere evitá-las. Pode hesitar em decisões impopulares." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Enfrenta problemas e conversas difíceis de forma construtiva e toma decisões corajosas depois de avaliar os riscos." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Tendência para comportamentos imprudentes ou agressivos. Pode procurar o confronto desnecessariamente e subestimar as consequências." }
+      ]
+    },
+    "ambiguidade": {
+      "nome": "Aceitação da Ambiguidade",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Precisa de instruções claras e de previsibilidade. A incerteza gera desconforto e pode atrasar a ação." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Tolera alguma incerteza, mas trabalha melhor com estrutura e objetivos bem definidos." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Prospera em contextos complexos e incertos, tomando decisões com informação incompleta sem perder o rumo." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Risco de ignorar a necessidade de estrutura e clareza da equipa, ou de tomar decisões sem procurar a informação disponível." }
+      ]
+    },
+    "competitividade": {
+      "nome": "Competitividade",
+      "bandas": [
+        { "min": 5, "max": 14, "zona": "baixo", "texto": "Pouco motivado pelo estatuto, pelo poder ou pela comparação com os outros. Pode faltar-lhe impulso para procurar posições de liderança." },
+        { "min": 15, "max": 23, "zona": "moderado", "texto": "Gosta de ter sucesso, mas não é movido pela competição. Equilibra a ambição pessoal com a colaboração." },
+        { "min": 24, "max": 30, "zona": "otimo", "texto": "Forte desejo de sucesso e de reconhecimento, canalizado para os objetivos da equipa e da organização." },
+        { "min": 31, "max": 35, "zona": "excessivo", "texto": "Risco de liderança tóxica: pode colocar o sucesso pessoal acima da equipa e criar rivalidades internas." }
+      ]
+    }
+  },
+  "afirmacoes": [
+    { "id": 1, "traco": "conscienciosidade", "polaridade": "+", "texto": "Planeio as minhas tarefas diárias com um elevado nível de rigor e organização." },
+    { "id": 2, "traco": "conscienciosidade", "polaridade": "-", "texto": "Por vezes deixo passar prazos quando surgem imprevistos." },
+    { "id": 3, "traco": "conscienciosidade", "polaridade": "+", "texto": "Sou frequentemente reconhecido pela minha extrema atenção aos detalhes." },
+    { "id": 4, "traco": "conscienciosidade", "polaridade": "+", "texto": "Estabeleço objetivos de longo prazo ambiciosos e claramente estruturados para mim mesmo." },
+    { "id": 5, "traco": "conscienciosidade", "polaridade": "-", "texto": "Tenho tendência a deixar tarefas a meio quando surge algo mais interessante." },
+
+    { "id": 6, "traco": "ajustamento", "polaridade": "+", "texto": "Consigo manter a calma e a clareza mental em situações de elevada pressão." },
+    { "id": 7, "traco": "ajustamento", "polaridade": "-", "texto": "As críticas profissionais costumam afetar o meu estado de espírito durante bastante tempo." },
+    { "id": 8, "traco": "ajustamento", "polaridade": "+", "texto": "Recupero e adapto-me rapidamente após um fracasso num projeto importante." },
+    { "id": 9, "traco": "ajustamento", "polaridade": "-", "texto": "Sob stress intenso, tenho dificuldade em pensar com clareza." },
+    { "id": 10, "traco": "ajustamento", "polaridade": "+", "texto": "Mantenho uma postura positiva e otimista mesmo perante adversidades organizacionais." },
+
+    { "id": 11, "traco": "curiosidade", "polaridade": "+", "texto": "Procuro ativamente novas formas de melhorar os processos de trabalho estabelecidos." },
+    { "id": 12, "traco": "curiosidade", "polaridade": "-", "texto": "Prefiro métodos de trabalho comprovados a experimentar abordagens novas." },
+    { "id": 13, "traco": "curiosidade", "polaridade": "+", "texto": "Questiono frequentemente o “status quo” se achar que existe uma solução mais inteligente." },
+    { "id": 14, "traco": "curiosidade", "polaridade": "-", "texto": "Raramente procuro aprender sobre áreas de negócio fora da minha especialidade." },
+    { "id": 15, "traco": "curiosidade", "polaridade": "+", "texto": "Sinto-me bastante motivado quando me deparo com problemas complexos e totalmente desconhecidos." },
+
+    { "id": 16, "traco": "risco", "polaridade": "-", "texto": "Tendo a evitar conversas difíceis, mesmo quando seriam úteis para a equipa." },
+    { "id": 17, "traco": "risco", "polaridade": "+", "texto": "Assumo a responsabilidade por decisões difíceis, mesmo sabendo que podem ser impopulares." },
+    { "id": 18, "traco": "risco", "polaridade": "+", "texto": "Estou disposto a correr riscos calculados no mercado se a recompensa for proporcional." },
+    { "id": 19, "traco": "risco", "polaridade": "+", "texto": "Sinto-me energizado ao enfrentar confrontos e problemas interpessoais no trabalho." },
+    { "id": 20, "traco": "risco", "polaridade": "-", "texto": "Prefiro adiar decisões importantes até ter a certeza absoluta." },
+
+    { "id": 21, "traco": "ambiguidade", "polaridade": "+", "texto": "Tenho um alto desempenho em projetos onde os processos e regras não estão totalmente definidos." },
+    { "id": 22, "traco": "ambiguidade", "polaridade": "-", "texto": "Sinto-me desconfortável quando não recebo instruções claras das chefias." },
+    { "id": 23, "traco": "ambiguidade", "polaridade": "+", "texto": "Adapto-me rapidamente a mudanças estruturais imprevistas na estratégia da empresa." },
+    { "id": 24, "traco": "ambiguidade", "polaridade": "-", "texto": "A incerteza sobre o futuro da empresa deixa-me ansioso." },
+    { "id": 25, "traco": "ambiguidade", "polaridade": "+", "texto": "Gosto de liderar iniciativas onde o resultado final não é claro nem garantido desde o primeiro dia." },
+
+    { "id": 26, "traco": "competitividade", "polaridade": "+", "texto": "Sou impulsionado por um forte desejo de superar o desempenho dos meus pares no trabalho." },
+    { "id": 27, "traco": "competitividade", "polaridade": "-", "texto": "Ocupar posições de poder não é algo que me motive particularmente." },
+    { "id": 28, "traco": "competitividade", "polaridade": "+", "texto": "Ganhar, ser o melhor da equipa e destacar-me é fundamental para a minha satisfação." },
+    { "id": 29, "traco": "competitividade", "polaridade": "+", "texto": "Esforço-me de forma agressiva para garantir que o meu sucesso é reconhecido pelas chefias." },
+    { "id": 30, "traco": "competitividade", "polaridade": "-", "texto": "Não sinto necessidade de comparar os meus resultados com os dos outros." }
+  ]
+}

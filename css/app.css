@@ -1,0 +1,74 @@
+/* Small custom styles that Tailwind utilities do not cover. */
+
+/* Test mode: hide navigation and footer to keep the screen distraction-free. */
+body.test-mode #site-header,
+body.test-mode #site-footer { display: none; }
+
+/* GIA stage: the lilac panel used in the official booklet's screenshots. */
+.gia-stage {
+  background: #c7c9ee;
+  border-radius: 1rem;
+}
+@media (prefers-color-scheme: dark) {
+  .gia-stage { background: #2a2d5a; }
+}
+
+/* Dark navy answer tiles, as in the booklet. */
+.gia-btn {
+  background: linear-gradient(#2c3f8f, #1b2a6b);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+  transition: transform 80ms ease, filter 80ms ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.gia-btn:hover { filter: brightness(1.15); }
+.gia-btn:active { transform: scale(0.97); }
+.gia-btn:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+
+/* Review marks */
+.mark-correct { box-shadow: 0 0 0 4px #16a34a; }
+.mark-wrong { box-shadow: 0 0 0 4px #dc2626; }
+
+/* Spatial test glyph: a heavy sans-serif "R" rotated / mirrored with CSS. */
+.glyph-r {
+  display: inline-block;
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  color: #1b2a6b;
+  font-size: 3rem;
+}
+@media (min-width: 640px) { .glyph-r { font-size: 3.5rem; } }
+
+.glyph-box {
+  background: #fff;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  min-width: 5.5rem;
+}
+
+/* Perceptual speed letters */
+.letter-row { letter-spacing: 0.02em; }
+
+/* Item transition */
+.fade-in { animation: fadeIn 120ms ease-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in { animation: none; }
+  .gia-btn { transition: none; }
+}
+
+/* HPTI Likert: instant feedback before auto-advance */
+button[data-v][aria-pressed="true"] { background: #1e3a8a; border-color: #1e3a8a; color: #fff; }
+
+/* PPA toggles */
+.ppa-toggle[aria-pressed="true"] { background: #1e3a8a; border-color: #1e3a8a; color: #fff; }
+.ppa-toggle:disabled { opacity: 0.25; cursor: not-allowed; }

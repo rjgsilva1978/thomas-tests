@@ -1,0 +1,7492 @@
+{
+ "raciocinio": [
+  {
+   "id": "r001",
+   "premissa": "A Beatriz não é tão ingénua quanto a Marta.",
+   "pergunta": "Quem é menos ingénua?",
+   "opcoes": [
+    "Beatriz",
+    "Marta"
+   ],
+   "resposta_correta": "Beatriz",
+   "explicacao": "A Beatriz é a mais esperta; a Marta é a mais ingénua."
+  },
+  {
+   "id": "r002",
+   "premissa": "O Bruno é menos rico do que o Frederico.",
+   "pergunta": "Quem é mais pobre?",
+   "opcoes": [
+    "Bruno",
+    "Frederico"
+   ],
+   "resposta_correta": "Bruno",
+   "explicacao": "O Frederico é o mais rico; o Bruno é o mais pobre."
+  },
+  {
+   "id": "r003",
+   "premissa": "O Tiago é menos velho do que o Tomás.",
+   "pergunta": "Quem é mais novo?",
+   "opcoes": [
+    "Tiago",
+    "Tomás"
+   ],
+   "resposta_correta": "Tiago",
+   "explicacao": "O Tomás é o mais velho; o Tiago é o mais novo."
+  },
+  {
+   "id": "r004",
+   "premissa": "A Beatriz não é tão nova quanto a Inês.",
+   "pergunta": "Quem é menos velha?",
+   "opcoes": [
+    "Beatriz",
+    "Inês"
+   ],
+   "resposta_correta": "Inês",
+   "explicacao": "A Beatriz é a mais velha; a Inês é a mais nova."
+  },
+  {
+   "id": "r005",
+   "premissa": "O Pedro não é tão triste quanto o Tomás.",
+   "pergunta": "Quem é menos triste?",
+   "opcoes": [
+    "Pedro",
+    "Tomás"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Pedro é o mais feliz; o Tomás é o mais triste."
+  },
+  {
+   "id": "r006",
+   "premissa": "A Teresa não é tão avarenta quanto a Ana.",
+   "pergunta": "Quem é mais generosa?",
+   "opcoes": [
+    "Teresa",
+    "Ana"
+   ],
+   "resposta_correta": "Teresa",
+   "explicacao": "A Teresa é a mais generosa; a Ana é a mais avarenta."
+  },
+  {
+   "id": "r007",
+   "premissa": "A Carla é mais corajosa do que a Teresa.",
+   "pergunta": "Quem é mais medrosa?",
+   "opcoes": [
+    "Carla",
+    "Teresa"
+   ],
+   "resposta_correta": "Teresa",
+   "explicacao": "A Carla é a mais corajosa; a Teresa é a mais medrosa."
+  },
+  {
+   "id": "r008",
+   "premissa": "O João não é tão preguiçoso quanto o Ricardo.",
+   "pergunta": "Quem é menos preguiçoso?",
+   "opcoes": [
+    "João",
+    "Ricardo"
+   ],
+   "resposta_correta": "João",
+   "explicacao": "O João é o mais trabalhador; o Ricardo é o mais preguiçoso."
+  },
+  {
+   "id": "r009",
+   "premissa": "A Marta é menos avarenta do que a Diana.",
+   "pergunta": "Quem é mais generosa?",
+   "opcoes": [
+    "Marta",
+    "Diana"
+   ],
+   "resposta_correta": "Marta",
+   "explicacao": "A Marta é a mais generosa; a Diana é a mais avarenta."
+  },
+  {
+   "id": "r010",
+   "premissa": "O Luís é menos alto do que o Filipe.",
+   "pergunta": "Quem é menos alto?",
+   "opcoes": [
+    "Luís",
+    "Filipe"
+   ],
+   "resposta_correta": "Luís",
+   "explicacao": "O Filipe é o mais alto; o Luís é o mais baixo."
+  },
+  {
+   "id": "r011",
+   "premissa": "O Nuno é menos baixo do que o Tomás.",
+   "pergunta": "Quem é menos baixo?",
+   "opcoes": [
+    "Nuno",
+    "Tomás"
+   ],
+   "resposta_correta": "Nuno",
+   "explicacao": "O Nuno é o mais alto; o Tomás é o mais baixo."
+  },
+  {
+   "id": "r012",
+   "premissa": "A Carla é menos fraca do que a Ana.",
+   "pergunta": "Quem é menos fraca?",
+   "opcoes": [
+    "Carla",
+    "Ana"
+   ],
+   "resposta_correta": "Carla",
+   "explicacao": "A Carla é a mais forte; a Ana é a mais fraca."
+  },
+  {
+   "id": "r013",
+   "premissa": "A Sofia não é tão alta quanto a Teresa.",
+   "pergunta": "Quem é mais alta?",
+   "opcoes": [
+    "Sofia",
+    "Teresa"
+   ],
+   "resposta_correta": "Teresa",
+   "explicacao": "A Teresa é a mais alta; a Sofia é a mais baixa."
+  },
+  {
+   "id": "r014",
+   "premissa": "A Rita não é tão avarenta quanto a Marta.",
+   "pergunta": "Quem é menos avarenta?",
+   "opcoes": [
+    "Rita",
+    "Marta"
+   ],
+   "resposta_correta": "Rita",
+   "explicacao": "A Rita é a mais generosa; a Marta é a mais avarenta."
+  },
+  {
+   "id": "r015",
+   "premissa": "O Roberto é mais leve do que o João.",
+   "pergunta": "Quem é menos leve?",
+   "opcoes": [
+    "Roberto",
+    "João"
+   ],
+   "resposta_correta": "João",
+   "explicacao": "O João é o mais pesado; o Roberto é o mais leve."
+  },
+  {
+   "id": "r016",
+   "premissa": "O Rui não é tão corajoso quanto o Tomás.",
+   "pergunta": "Quem é menos medroso?",
+   "opcoes": [
+    "Rui",
+    "Tomás"
+   ],
+   "resposta_correta": "Tomás",
+   "explicacao": "O Tomás é o mais corajoso; o Rui é o mais medroso."
+  },
+  {
+   "id": "r017",
+   "premissa": "A Sara é menos nova do que a Beatriz.",
+   "pergunta": "Quem é menos velha?",
+   "opcoes": [
+    "Sara",
+    "Beatriz"
+   ],
+   "resposta_correta": "Beatriz",
+   "explicacao": "A Sara é a mais velha; a Beatriz é a mais nova."
+  },
+  {
+   "id": "r018",
+   "premissa": "O Hugo é mais velho do que o Filipe.",
+   "pergunta": "Quem é menos novo?",
+   "opcoes": [
+    "Hugo",
+    "Filipe"
+   ],
+   "resposta_correta": "Hugo",
+   "explicacao": "O Hugo é o mais velho; o Filipe é o mais novo."
+  },
+  {
+   "id": "r019",
+   "premissa": "O Marcos é mais rápido do que o Ricardo.",
+   "pergunta": "Quem é mais rápido?",
+   "opcoes": [
+    "Marcos",
+    "Ricardo"
+   ],
+   "resposta_correta": "Marcos",
+   "explicacao": "O Marcos é o mais rápido; o Ricardo é o mais lento."
+  },
+  {
+   "id": "r020",
+   "premissa": "O Pedro é mais leve do que o Rui.",
+   "pergunta": "Quem é mais leve?",
+   "opcoes": [
+    "Pedro",
+    "Rui"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Rui é o mais pesado; o Pedro é o mais leve."
+  },
+  {
+   "id": "r021",
+   "premissa": "O Roberto é menos leve do que o Pedro.",
+   "pergunta": "Quem é menos leve?",
+   "opcoes": [
+    "Roberto",
+    "Pedro"
+   ],
+   "resposta_correta": "Roberto",
+   "explicacao": "O Roberto é o mais pesado; o Pedro é o mais leve."
+  },
+  {
+   "id": "r022",
+   "premissa": "A Filipa é menos velha do que a Rita.",
+   "pergunta": "Quem é mais nova?",
+   "opcoes": [
+    "Filipa",
+    "Rita"
+   ],
+   "resposta_correta": "Filipa",
+   "explicacao": "A Rita é a mais velha; a Filipa é a mais nova."
+  },
+  {
+   "id": "r023",
+   "premissa": "O Bruno não é tão rico quanto o Luís.",
+   "pergunta": "Quem é menos rico?",
+   "opcoes": [
+    "Bruno",
+    "Luís"
+   ],
+   "resposta_correta": "Bruno",
+   "explicacao": "O Luís é o mais rico; o Bruno é o mais pobre."
+  },
+  {
+   "id": "r024",
+   "premissa": "O Luís é mais preguiçoso do que o Carlos.",
+   "pergunta": "Quem é mais trabalhador?",
+   "opcoes": [
+    "Luís",
+    "Carlos"
+   ],
+   "resposta_correta": "Carlos",
+   "explicacao": "O Carlos é o mais trabalhador; o Luís é o mais preguiçoso."
+  },
+  {
+   "id": "r025",
+   "premissa": "O Vasco não é tão velho quanto o Roberto.",
+   "pergunta": "Quem é menos velho?",
+   "opcoes": [
+    "Vasco",
+    "Roberto"
+   ],
+   "resposta_correta": "Vasco",
+   "explicacao": "O Roberto é o mais velho; o Vasco é o mais novo."
+  },
+  {
+   "id": "r026",
+   "premissa": "O Roberto é mais generoso do que o Tomás.",
+   "pergunta": "Quem é menos generoso?",
+   "opcoes": [
+    "Roberto",
+    "Tomás"
+   ],
+   "resposta_correta": "Tomás",
+   "explicacao": "O Roberto é o mais generoso; o Tomás é o mais avarento."
+  },
+  {
+   "id": "r027",
+   "premissa": "A Teresa é mais rápida do que a Diana.",
+   "pergunta": "Quem é mais rápida?",
+   "opcoes": [
+    "Teresa",
+    "Diana"
+   ],
+   "resposta_correta": "Teresa",
+   "explicacao": "A Teresa é a mais rápida; a Diana é a mais lenta."
+  },
+  {
+   "id": "r028",
+   "premissa": "A Ana é mais baixa do que a Sofia.",
+   "pergunta": "Quem é menos baixa?",
+   "opcoes": [
+    "Ana",
+    "Sofia"
+   ],
+   "resposta_correta": "Sofia",
+   "explicacao": "A Sofia é a mais alta; a Ana é a mais baixa."
+  },
+  {
+   "id": "r029",
+   "premissa": "A Marta é mais avarenta do que a Carla.",
+   "pergunta": "Quem é menos avarenta?",
+   "opcoes": [
+    "Marta",
+    "Carla"
+   ],
+   "resposta_correta": "Carla",
+   "explicacao": "A Carla é a mais generosa; a Marta é a mais avarenta."
+  },
+  {
+   "id": "r030",
+   "premissa": "O João é menos calmo do que o André.",
+   "pergunta": "Quem é mais nervoso?",
+   "opcoes": [
+    "João",
+    "André"
+   ],
+   "resposta_correta": "João",
+   "explicacao": "O André é o mais calmo; o João é o mais nervoso."
+  },
+  {
+   "id": "r031",
+   "premissa": "O Diogo não é tão esperto quanto o Nuno.",
+   "pergunta": "Quem é mais esperto?",
+   "opcoes": [
+    "Diogo",
+    "Nuno"
+   ],
+   "resposta_correta": "Nuno",
+   "explicacao": "O Nuno é o mais esperto; o Diogo é o mais ingénuo."
+  },
+  {
+   "id": "r032",
+   "premissa": "A Filipa não é tão preguiçosa quanto a Marta.",
+   "pergunta": "Quem é mais trabalhadora?",
+   "opcoes": [
+    "Filipa",
+    "Marta"
+   ],
+   "resposta_correta": "Filipa",
+   "explicacao": "A Filipa é a mais trabalhadora; a Marta é a mais preguiçosa."
+  },
+  {
+   "id": "r033",
+   "premissa": "O André é mais nervoso do que o Hugo.",
+   "pergunta": "Quem é mais nervoso?",
+   "opcoes": [
+    "André",
+    "Hugo"
+   ],
+   "resposta_correta": "André",
+   "explicacao": "O Hugo é o mais calmo; o André é o mais nervoso."
+  },
+  {
+   "id": "r034",
+   "premissa": "O Frederico não é tão medroso quanto o Miguel.",
+   "pergunta": "Quem é mais corajoso?",
+   "opcoes": [
+    "Frederico",
+    "Miguel"
+   ],
+   "resposta_correta": "Frederico",
+   "explicacao": "O Frederico é o mais corajoso; o Miguel é o mais medroso."
+  },
+  {
+   "id": "r035",
+   "premissa": "A Ana não é tão rica quanto a Sofia.",
+   "pergunta": "Quem é mais rica?",
+   "opcoes": [
+    "Ana",
+    "Sofia"
+   ],
+   "resposta_correta": "Sofia",
+   "explicacao": "A Sofia é a mais rica; a Ana é a mais pobre."
+  },
+  {
+   "id": "r036",
+   "premissa": "O Vasco é mais nervoso do que o Hugo.",
+   "pergunta": "Quem é mais nervoso?",
+   "opcoes": [
+    "Vasco",
+    "Hugo"
+   ],
+   "resposta_correta": "Vasco",
+   "explicacao": "O Hugo é o mais calmo; o Vasco é o mais nervoso."
+  },
+  {
+   "id": "r037",
+   "premissa": "O Tomás é mais nervoso do que o Tiago.",
+   "pergunta": "Quem é menos nervoso?",
+   "opcoes": [
+    "Tomás",
+    "Tiago"
+   ],
+   "resposta_correta": "Tiago",
+   "explicacao": "O Tiago é o mais calmo; o Tomás é o mais nervoso."
+  },
+  {
+   "id": "r038",
+   "premissa": "O Paulo é menos novo do que o Ricardo.",
+   "pergunta": "Quem é menos velho?",
+   "opcoes": [
+    "Paulo",
+    "Ricardo"
+   ],
+   "resposta_correta": "Ricardo",
+   "explicacao": "O Paulo é o mais velho; o Ricardo é o mais novo."
+  },
+  {
+   "id": "r039",
+   "premissa": "O Bruno não é tão nervoso quanto o Luís.",
+   "pergunta": "Quem é menos nervoso?",
+   "opcoes": [
+    "Bruno",
+    "Luís"
+   ],
+   "resposta_correta": "Bruno",
+   "explicacao": "O Bruno é o mais calmo; o Luís é o mais nervoso."
+  },
+  {
+   "id": "r040",
+   "premissa": "O Paulo é menos feliz do que o Rui.",
+   "pergunta": "Quem é menos triste?",
+   "opcoes": [
+    "Paulo",
+    "Rui"
+   ],
+   "resposta_correta": "Rui",
+   "explicacao": "O Rui é o mais feliz; o Paulo é o mais triste."
+  },
+  {
+   "id": "r041",
+   "premissa": "O Frederico é mais velho do que o Roberto.",
+   "pergunta": "Quem é mais novo?",
+   "opcoes": [
+    "Frederico",
+    "Roberto"
+   ],
+   "resposta_correta": "Roberto",
+   "explicacao": "O Frederico é o mais velho; o Roberto é o mais novo."
+  },
+  {
+   "id": "r042",
+   "premissa": "O Rui é menos pobre do que o Hugo.",
+   "pergunta": "Quem é menos pobre?",
+   "opcoes": [
+    "Rui",
+    "Hugo"
+   ],
+   "resposta_correta": "Rui",
+   "explicacao": "O Rui é o mais rico; o Hugo é o mais pobre."
+  },
+  {
+   "id": "r043",
+   "premissa": "O Marcos é mais rápido do que o Tiago.",
+   "pergunta": "Quem é mais rápido?",
+   "opcoes": [
+    "Marcos",
+    "Tiago"
+   ],
+   "resposta_correta": "Marcos",
+   "explicacao": "O Marcos é o mais rápido; o Tiago é o mais lento."
+  },
+  {
+   "id": "r044",
+   "premissa": "O Pedro é menos pobre do que o André.",
+   "pergunta": "Quem é menos rico?",
+   "opcoes": [
+    "Pedro",
+    "André"
+   ],
+   "resposta_correta": "André",
+   "explicacao": "O Pedro é o mais rico; o André é o mais pobre."
+  },
+  {
+   "id": "r045",
+   "premissa": "A Raquel é menos rica do que a Diana.",
+   "pergunta": "Quem é menos rica?",
+   "opcoes": [
+    "Raquel",
+    "Diana"
+   ],
+   "resposta_correta": "Raquel",
+   "explicacao": "A Diana é a mais rica; a Raquel é a mais pobre."
+  },
+  {
+   "id": "r046",
+   "premissa": "O Miguel é mais trabalhador do que o Ricardo.",
+   "pergunta": "Quem é mais preguiçoso?",
+   "opcoes": [
+    "Miguel",
+    "Ricardo"
+   ],
+   "resposta_correta": "Ricardo",
+   "explicacao": "O Miguel é o mais trabalhador; o Ricardo é o mais preguiçoso."
+  },
+  {
+   "id": "r047",
+   "premissa": "O Hugo é menos alto do que o Pedro.",
+   "pergunta": "Quem é mais baixo?",
+   "opcoes": [
+    "Hugo",
+    "Pedro"
+   ],
+   "resposta_correta": "Hugo",
+   "explicacao": "O Pedro é o mais alto; o Hugo é o mais baixo."
+  },
+  {
+   "id": "r048",
+   "premissa": "O André é menos pobre do que o Ricardo.",
+   "pergunta": "Quem é mais rico?",
+   "opcoes": [
+    "André",
+    "Ricardo"
+   ],
+   "resposta_correta": "André",
+   "explicacao": "O André é o mais rico; o Ricardo é o mais pobre."
+  },
+  {
+   "id": "r049",
+   "premissa": "O Paulo não é tão baixo quanto o Tomás.",
+   "pergunta": "Quem é menos baixo?",
+   "opcoes": [
+    "Paulo",
+    "Tomás"
+   ],
+   "resposta_correta": "Paulo",
+   "explicacao": "O Paulo é o mais alto; o Tomás é o mais baixo."
+  },
+  {
+   "id": "r050",
+   "premissa": "O Ricardo não é tão ingénuo quanto o Pedro.",
+   "pergunta": "Quem é mais ingénuo?",
+   "opcoes": [
+    "Ricardo",
+    "Pedro"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Ricardo é o mais esperto; o Pedro é o mais ingénuo."
+  },
+  {
+   "id": "r051",
+   "premissa": "O Ricardo não é tão pesado quanto o Diogo.",
+   "pergunta": "Quem é mais leve?",
+   "opcoes": [
+    "Ricardo",
+    "Diogo"
+   ],
+   "resposta_correta": "Ricardo",
+   "explicacao": "O Diogo é o mais pesado; o Ricardo é o mais leve."
+  },
+  {
+   "id": "r052",
+   "premissa": "O André não é tão rápido quanto o João.",
+   "pergunta": "Quem é mais rápido?",
+   "opcoes": [
+    "André",
+    "João"
+   ],
+   "resposta_correta": "João",
+   "explicacao": "O João é o mais rápido; o André é o mais lento."
+  },
+  {
+   "id": "r053",
+   "premissa": "O Vasco é mais alto do que o Diogo.",
+   "pergunta": "Quem é mais baixo?",
+   "opcoes": [
+    "Vasco",
+    "Diogo"
+   ],
+   "resposta_correta": "Diogo",
+   "explicacao": "O Vasco é o mais alto; o Diogo é o mais baixo."
+  },
+  {
+   "id": "r054",
+   "premissa": "O João é mais baixo do que o Pedro.",
+   "pergunta": "Quem é menos baixo?",
+   "opcoes": [
+    "João",
+    "Pedro"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Pedro é o mais alto; o João é o mais baixo."
+  },
+  {
+   "id": "r055",
+   "premissa": "A Inês é menos velha do que a Marta.",
+   "pergunta": "Quem é mais velha?",
+   "opcoes": [
+    "Inês",
+    "Marta"
+   ],
+   "resposta_correta": "Marta",
+   "explicacao": "A Marta é a mais velha; a Inês é a mais nova."
+  },
+  {
+   "id": "r056",
+   "premissa": "A Joana é mais lenta do que a Vânia.",
+   "pergunta": "Quem é mais lenta?",
+   "opcoes": [
+    "Joana",
+    "Vânia"
+   ],
+   "resposta_correta": "Joana",
+   "explicacao": "A Vânia é a mais rápida; a Joana é a mais lenta."
+  },
+  {
+   "id": "r057",
+   "premissa": "A Teresa é menos leve do que a Ana.",
+   "pergunta": "Quem é menos pesada?",
+   "opcoes": [
+    "Teresa",
+    "Ana"
+   ],
+   "resposta_correta": "Ana",
+   "explicacao": "A Teresa é a mais pesada; a Ana é a mais leve."
+  },
+  {
+   "id": "r058",
+   "premissa": "A Vânia não é tão generosa quanto a Beatriz.",
+   "pergunta": "Quem é menos avarenta?",
+   "opcoes": [
+    "Vânia",
+    "Beatriz"
+   ],
+   "resposta_correta": "Beatriz",
+   "explicacao": "A Beatriz é a mais generosa; a Vânia é a mais avarenta."
+  },
+  {
+   "id": "r059",
+   "premissa": "A Beatriz não é tão triste quanto a Marta.",
+   "pergunta": "Quem é mais triste?",
+   "opcoes": [
+    "Beatriz",
+    "Marta"
+   ],
+   "resposta_correta": "Marta",
+   "explicacao": "A Beatriz é a mais feliz; a Marta é a mais triste."
+  },
+  {
+   "id": "r060",
+   "premissa": "O Frederico não é tão velho quanto o Tiago.",
+   "pergunta": "Quem é menos velho?",
+   "opcoes": [
+    "Frederico",
+    "Tiago"
+   ],
+   "resposta_correta": "Frederico",
+   "explicacao": "O Tiago é o mais velho; o Frederico é o mais novo."
+  },
+  {
+   "id": "r061",
+   "premissa": "O Tiago é mais fraco do que o Rui.",
+   "pergunta": "Quem é mais fraco?",
+   "opcoes": [
+    "Tiago",
+    "Rui"
+   ],
+   "resposta_correta": "Tiago",
+   "explicacao": "O Rui é o mais forte; o Tiago é o mais fraco."
+  },
+  {
+   "id": "r062",
+   "premissa": "A Sofia é mais feliz do que a Rita.",
+   "pergunta": "Quem é menos feliz?",
+   "opcoes": [
+    "Sofia",
+    "Rita"
+   ],
+   "resposta_correta": "Rita",
+   "explicacao": "A Sofia é a mais feliz; a Rita é a mais triste."
+  },
+  {
+   "id": "r063",
+   "premissa": "O Tiago não é tão forte quanto o André.",
+   "pergunta": "Quem é menos forte?",
+   "opcoes": [
+    "Tiago",
+    "André"
+   ],
+   "resposta_correta": "Tiago",
+   "explicacao": "O André é o mais forte; o Tiago é o mais fraco."
+  },
+  {
+   "id": "r064",
+   "premissa": "O Tiago não é tão esperto quanto o Pedro.",
+   "pergunta": "Quem é mais esperto?",
+   "opcoes": [
+    "Tiago",
+    "Pedro"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Pedro é o mais esperto; o Tiago é o mais ingénuo."
+  },
+  {
+   "id": "r065",
+   "premissa": "O Tiago é menos calmo do que o Marcos.",
+   "pergunta": "Quem é menos calmo?",
+   "opcoes": [
+    "Tiago",
+    "Marcos"
+   ],
+   "resposta_correta": "Tiago",
+   "explicacao": "O Marcos é o mais calmo; o Tiago é o mais nervoso."
+  },
+  {
+   "id": "r066",
+   "premissa": "O Vasco é mais triste do que o João.",
+   "pergunta": "Quem é menos feliz?",
+   "opcoes": [
+    "Vasco",
+    "João"
+   ],
+   "resposta_correta": "Vasco",
+   "explicacao": "O João é o mais feliz; o Vasco é o mais triste."
+  },
+  {
+   "id": "r067",
+   "premissa": "O Tomás não é tão rápido quanto o Diogo.",
+   "pergunta": "Quem é mais rápido?",
+   "opcoes": [
+    "Tomás",
+    "Diogo"
+   ],
+   "resposta_correta": "Diogo",
+   "explicacao": "O Diogo é o mais rápido; o Tomás é o mais lento."
+  },
+  {
+   "id": "r068",
+   "premissa": "O Hugo é menos baixo do que o Rui.",
+   "pergunta": "Quem é mais alto?",
+   "opcoes": [
+    "Hugo",
+    "Rui"
+   ],
+   "resposta_correta": "Hugo",
+   "explicacao": "O Hugo é o mais alto; o Rui é o mais baixo."
+  },
+  {
+   "id": "r069",
+   "premissa": "O Bruno não é tão leve quanto o Vasco.",
+   "pergunta": "Quem é mais leve?",
+   "opcoes": [
+    "Bruno",
+    "Vasco"
+   ],
+   "resposta_correta": "Vasco",
+   "explicacao": "O Bruno é o mais pesado; o Vasco é o mais leve."
+  },
+  {
+   "id": "r070",
+   "premissa": "O Hugo é menos pesado do que o Roberto.",
+   "pergunta": "Quem é menos pesado?",
+   "opcoes": [
+    "Hugo",
+    "Roberto"
+   ],
+   "resposta_correta": "Hugo",
+   "explicacao": "O Roberto é o mais pesado; o Hugo é o mais leve."
+  },
+  {
+   "id": "r071",
+   "premissa": "A Sara não é tão fraca quanto a Rita.",
+   "pergunta": "Quem é menos fraca?",
+   "opcoes": [
+    "Sara",
+    "Rita"
+   ],
+   "resposta_correta": "Sara",
+   "explicacao": "A Sara é a mais forte; a Rita é a mais fraca."
+  },
+  {
+   "id": "r072",
+   "premissa": "A Marta é menos avarenta do que a Vânia.",
+   "pergunta": "Quem é mais generosa?",
+   "opcoes": [
+    "Marta",
+    "Vânia"
+   ],
+   "resposta_correta": "Marta",
+   "explicacao": "A Marta é a mais generosa; a Vânia é a mais avarenta."
+  },
+  {
+   "id": "r073",
+   "premissa": "O Bruno é mais novo do que o Ricardo.",
+   "pergunta": "Quem é menos novo?",
+   "opcoes": [
+    "Bruno",
+    "Ricardo"
+   ],
+   "resposta_correta": "Ricardo",
+   "explicacao": "O Ricardo é o mais velho; o Bruno é o mais novo."
+  },
+  {
+   "id": "r074",
+   "premissa": "O Nuno é menos lento do que o Marcos.",
+   "pergunta": "Quem é mais rápido?",
+   "opcoes": [
+    "Nuno",
+    "Marcos"
+   ],
+   "resposta_correta": "Nuno",
+   "explicacao": "O Nuno é o mais rápido; o Marcos é o mais lento."
+  },
+  {
+   "id": "r075",
+   "premissa": "A Filipa é mais esperta do que a Teresa.",
+   "pergunta": "Quem é menos ingénua?",
+   "opcoes": [
+    "Filipa",
+    "Teresa"
+   ],
+   "resposta_correta": "Filipa",
+   "explicacao": "A Filipa é a mais esperta; a Teresa é a mais ingénua."
+  },
+  {
+   "id": "r076",
+   "premissa": "O Pedro não é tão novo quanto o João.",
+   "pergunta": "Quem é mais velho?",
+   "opcoes": [
+    "Pedro",
+    "João"
+   ],
+   "resposta_correta": "Pedro",
+   "explicacao": "O Pedro é o mais velho; o João é o mais novo."
+  },
+  {
+   "id": "r077",
+   "premissa": "O Pedro é menos preguiçoso do que o Hugo.",
+   "pergunta": "Quem é mais preguiçoso?",
+   "opcoes": [
+    "Pedro",
+    "Hugo"
+   ],
+   "resposta_correta": "Hugo",
+   "explicacao": "O Pedro é o mais trabalhador; o Hugo é o mais preguiçoso."
+  },
+  {
+   "id": "r078",
+   "premissa": "A Filipa não é tão leve quanto a Teresa.",
+   "pergunta": "Quem é menos leve?",
+   "opcoes": [
+    "Filipa",
+    "Teresa"
+   ],
+   "resposta_correta": "Filipa",
+   "explicacao": "A Filipa é a mais pesada; a Teresa é a mais leve."
+  },
+  {
+   "id": "r079",
+   "premissa": "A Filipa é menos triste do que a Carla.",
+   "pergunta": "Quem é menos feliz?",
+   "opcoes": [
+    "Filipa",
+    "Carla"
+   ],
+   "resposta_correta": "Carla",
+   "explicacao": "A Filipa é a mais feliz; a Carla é a mais triste."
+  },
+  {
+   "id": "r080",
+   "premissa": "O Nuno é mais calmo do que o Miguel.",
+   "pergunta": "Quem é mais calmo?",
+   "opcoes": [
+    "Nuno",
+    "Miguel"
+   ],
+   "resposta_correta": "Nuno",
+   "explicacao": "O Nuno é o mais calmo; o Miguel é o mais nervoso."
+  }
+ ],
+ "velocidade_percetiva": [
+  {
+   "id": "p001",
+   "pares": [
+    [
+     "H",
+     "h"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "Y",
+     "y"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p002",
+   "pares": [
+    [
+     "O",
+     "c"
+    ],
+    [
+     "V",
+     "w"
+    ],
+    [
+     "Y",
+     "g"
+    ],
+    [
+     "X",
+     "x"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p003",
+   "pares": [
+    [
+     "H",
+     "k"
+    ],
+    [
+     "R",
+     "f"
+    ],
+    [
+     "N",
+     "u"
+    ],
+    [
+     "V",
+     "y"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p004",
+   "pares": [
+    [
+     "T",
+     "f"
+    ],
+    [
+     "P",
+     "d"
+    ],
+    [
+     "A",
+     "v"
+    ],
+    [
+     "O",
+     "e"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p005",
+   "pares": [
+    [
+     "W",
+     "w"
+    ],
+    [
+     "V",
+     "v"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "U",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p006",
+   "pares": [
+    [
+     "U",
+     "e"
+    ],
+    [
+     "T",
+     "f"
+    ],
+    [
+     "J",
+     "b"
+    ],
+    [
+     "I",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p007",
+   "pares": [
+    [
+     "X",
+     "k"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "M",
+     "n"
+    ],
+    [
+     "N",
+     "m"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p008",
+   "pares": [
+    [
+     "F",
+     "f"
+    ],
+    [
+     "W",
+     "w"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "O",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p009",
+   "pares": [
+    [
+     "E",
+     "c"
+    ],
+    [
+     "N",
+     "h"
+    ],
+    [
+     "T",
+     "i"
+    ],
+    [
+     "Q",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p010",
+   "pares": [
+    [
+     "R",
+     "f"
+    ],
+    [
+     "S",
+     "p"
+    ],
+    [
+     "J",
+     "j"
+    ],
+    [
+     "P",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p011",
+   "pares": [
+    [
+     "E",
+     "e"
+    ],
+    [
+     "B",
+     "b"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "H",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p012",
+   "pares": [
+    [
+     "D",
+     "q"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "C",
+     "m"
+    ],
+    [
+     "A",
+     "a"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p013",
+   "pares": [
+    [
+     "L",
+     "j"
+    ],
+    [
+     "K",
+     "x"
+    ],
+    [
+     "Z",
+     "a"
+    ],
+    [
+     "R",
+     "x"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p014",
+   "pares": [
+    [
+     "Y",
+     "v"
+    ],
+    [
+     "H",
+     "n"
+    ],
+    [
+     "A",
+     "a"
+    ],
+    [
+     "R",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p015",
+   "pares": [
+    [
+     "H",
+     "h"
+    ],
+    [
+     "W",
+     "v"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "F",
+     "r"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p016",
+   "pares": [
+    [
+     "I",
+     "i"
+    ],
+    [
+     "H",
+     "h"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "L",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p017",
+   "pares": [
+    [
+     "S",
+     "s"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "D",
+     "d"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p018",
+   "pares": [
+    [
+     "U",
+     "u"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "P",
+     "p"
+    ],
+    [
+     "K",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p019",
+   "pares": [
+    [
+     "F",
+     "f"
+    ],
+    [
+     "V",
+     "u"
+    ],
+    [
+     "G",
+     "g"
+    ],
+    [
+     "A",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p020",
+   "pares": [
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "J",
+     "b"
+    ],
+    [
+     "K",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p021",
+   "pares": [
+    [
+     "N",
+     "m"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "Q",
+     "u"
+    ],
+    [
+     "T",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p022",
+   "pares": [
+    [
+     "L",
+     "i"
+    ],
+    [
+     "G",
+     "v"
+    ],
+    [
+     "Q",
+     "a"
+    ],
+    [
+     "F",
+     "f"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p023",
+   "pares": [
+    [
+     "X",
+     "f"
+    ],
+    [
+     "D",
+     "p"
+    ],
+    [
+     "U",
+     "t"
+    ],
+    [
+     "M",
+     "w"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p024",
+   "pares": [
+    [
+     "M",
+     "w"
+    ],
+    [
+     "T",
+     "l"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "C",
+     "e"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p025",
+   "pares": [
+    [
+     "W",
+     "w"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "D",
+     "d"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p026",
+   "pares": [
+    [
+     "Q",
+     "p"
+    ],
+    [
+     "B",
+     "p"
+    ],
+    [
+     "R",
+     "f"
+    ],
+    [
+     "M",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p027",
+   "pares": [
+    [
+     "S",
+     "s"
+    ],
+    [
+     "E",
+     "e"
+    ],
+    [
+     "U",
+     "v"
+    ],
+    [
+     "D",
+     "d"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p028",
+   "pares": [
+    [
+     "G",
+     "q"
+    ],
+    [
+     "B",
+     "b"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "P",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p029",
+   "pares": [
+    [
+     "I",
+     "j"
+    ],
+    [
+     "H",
+     "h"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "L",
+     "z"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p030",
+   "pares": [
+    [
+     "S",
+     "z"
+    ],
+    [
+     "X",
+     "k"
+    ],
+    [
+     "M",
+     "n"
+    ],
+    [
+     "I",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p031",
+   "pares": [
+    [
+     "L",
+     "i"
+    ],
+    [
+     "H",
+     "h"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "Z",
+     "s"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p032",
+   "pares": [
+    [
+     "O",
+     "o"
+    ],
+    [
+     "A",
+     "n"
+    ],
+    [
+     "L",
+     "l"
+    ],
+    [
+     "J",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p033",
+   "pares": [
+    [
+     "B",
+     "b"
+    ],
+    [
+     "I",
+     "e"
+    ],
+    [
+     "M",
+     "j"
+    ],
+    [
+     "V",
+     "v"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p034",
+   "pares": [
+    [
+     "T",
+     "l"
+    ],
+    [
+     "B",
+     "p"
+    ],
+    [
+     "R",
+     "n"
+    ],
+    [
+     "C",
+     "a"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p035",
+   "pares": [
+    [
+     "V",
+     "w"
+    ],
+    [
+     "X",
+     "x"
+    ],
+    [
+     "C",
+     "c"
+    ],
+    [
+     "R",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p036",
+   "pares": [
+    [
+     "V",
+     "y"
+    ],
+    [
+     "G",
+     "y"
+    ],
+    [
+     "B",
+     "r"
+    ],
+    [
+     "N",
+     "h"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p037",
+   "pares": [
+    [
+     "Y",
+     "a"
+    ],
+    [
+     "D",
+     "q"
+    ],
+    [
+     "J",
+     "j"
+    ],
+    [
+     "P",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p038",
+   "pares": [
+    [
+     "O",
+     "n"
+    ],
+    [
+     "P",
+     "b"
+    ],
+    [
+     "T",
+     "l"
+    ],
+    [
+     "U",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p039",
+   "pares": [
+    [
+     "V",
+     "e"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "A",
+     "o"
+    ],
+    [
+     "B",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p040",
+   "pares": [
+    [
+     "Y",
+     "z"
+    ],
+    [
+     "T",
+     "d"
+    ],
+    [
+     "B",
+     "u"
+    ],
+    [
+     "W",
+     "v"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p041",
+   "pares": [
+    [
+     "L",
+     "l"
+    ],
+    [
+     "S",
+     "s"
+    ],
+    [
+     "O",
+     "e"
+    ],
+    [
+     "F",
+     "t"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p042",
+   "pares": [
+    [
+     "P",
+     "h"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "V",
+     "v"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p043",
+   "pares": [
+    [
+     "L",
+     "l"
+    ],
+    [
+     "W",
+     "w"
+    ],
+    [
+     "X",
+     "x"
+    ],
+    [
+     "U",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p044",
+   "pares": [
+    [
+     "B",
+     "b"
+    ],
+    [
+     "H",
+     "h"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "R",
+     "r"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p045",
+   "pares": [
+    [
+     "W",
+     "m"
+    ],
+    [
+     "R",
+     "f"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "F",
+     "g"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p046",
+   "pares": [
+    [
+     "C",
+     "c"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "G",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p047",
+   "pares": [
+    [
+     "J",
+     "i"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "W",
+     "w"
+    ],
+    [
+     "G",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p048",
+   "pares": [
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "G",
+     "o"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "B",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p049",
+   "pares": [
+    [
+     "K",
+     "k"
+    ],
+    [
+     "P",
+     "p"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "O",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p050",
+   "pares": [
+    [
+     "S",
+     "s"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "C",
+     "c"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p051",
+   "pares": [
+    [
+     "J",
+     "j"
+    ],
+    [
+     "A",
+     "e"
+    ],
+    [
+     "Y",
+     "l"
+    ],
+    [
+     "D",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p052",
+   "pares": [
+    [
+     "E",
+     "f"
+    ],
+    [
+     "A",
+     "o"
+    ],
+    [
+     "M",
+     "w"
+    ],
+    [
+     "F",
+     "f"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p053",
+   "pares": [
+    [
+     "P",
+     "p"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "V",
+     "h"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p054",
+   "pares": [
+    [
+     "S",
+     "z"
+    ],
+    [
+     "H",
+     "n"
+    ],
+    [
+     "G",
+     "c"
+    ],
+    [
+     "W",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p055",
+   "pares": [
+    [
+     "M",
+     "v"
+    ],
+    [
+     "Y",
+     "g"
+    ],
+    [
+     "J",
+     "i"
+    ],
+    [
+     "T",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p056",
+   "pares": [
+    [
+     "R",
+     "n"
+    ],
+    [
+     "S",
+     "z"
+    ],
+    [
+     "I",
+     "t"
+    ],
+    [
+     "A",
+     "e"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p057",
+   "pares": [
+    [
+     "X",
+     "x"
+    ],
+    [
+     "F",
+     "k"
+    ],
+    [
+     "I",
+     "s"
+    ],
+    [
+     "Y",
+     "g"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p058",
+   "pares": [
+    [
+     "C",
+     "c"
+    ],
+    [
+     "H",
+     "h"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "G",
+     "g"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p059",
+   "pares": [
+    [
+     "B",
+     "i"
+    ],
+    [
+     "G",
+     "q"
+    ],
+    [
+     "O",
+     "g"
+    ],
+    [
+     "L",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p060",
+   "pares": [
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "P",
+     "q"
+    ],
+    [
+     "U",
+     "u"
+    ],
+    [
+     "B",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p061",
+   "pares": [
+    [
+     "E",
+     "f"
+    ],
+    [
+     "F",
+     "k"
+    ],
+    [
+     "A",
+     "e"
+    ],
+    [
+     "Q",
+     "e"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p062",
+   "pares": [
+    [
+     "O",
+     "o"
+    ],
+    [
+     "G",
+     "y"
+    ],
+    [
+     "A",
+     "a"
+    ],
+    [
+     "M",
+     "m"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p063",
+   "pares": [
+    [
+     "X",
+     "x"
+    ],
+    [
+     "D",
+     "d"
+    ],
+    [
+     "S",
+     "s"
+    ],
+    [
+     "C",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p064",
+   "pares": [
+    [
+     "D",
+     "d"
+    ],
+    [
+     "L",
+     "j"
+    ],
+    [
+     "A",
+     "a"
+    ],
+    [
+     "E",
+     "c"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p065",
+   "pares": [
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "U",
+     "u"
+    ],
+    [
+     "E",
+     "e"
+    ],
+    [
+     "R",
+     "r"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p066",
+   "pares": [
+    [
+     "S",
+     "z"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "T",
+     "l"
+    ],
+    [
+     "X",
+     "x"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p067",
+   "pares": [
+    [
+     "M",
+     "n"
+    ],
+    [
+     "Z",
+     "s"
+    ],
+    [
+     "Q",
+     "p"
+    ],
+    [
+     "G",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p068",
+   "pares": [
+    [
+     "G",
+     "l"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "I",
+     "j"
+    ],
+    [
+     "K",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p069",
+   "pares": [
+    [
+     "K",
+     "y"
+    ],
+    [
+     "V",
+     "w"
+    ],
+    [
+     "I",
+     "q"
+    ],
+    [
+     "Z",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p070",
+   "pares": [
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "L",
+     "l"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "B",
+     "b"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p071",
+   "pares": [
+    [
+     "J",
+     "g"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "U",
+     "u"
+    ],
+    [
+     "L",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p072",
+   "pares": [
+    [
+     "R",
+     "b"
+    ],
+    [
+     "P",
+     "b"
+    ],
+    [
+     "L",
+     "l"
+    ],
+    [
+     "X",
+     "x"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p073",
+   "pares": [
+    [
+     "W",
+     "w"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "M",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p074",
+   "pares": [
+    [
+     "O",
+     "c"
+    ],
+    [
+     "U",
+     "u"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "A",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p075",
+   "pares": [
+    [
+     "D",
+     "d"
+    ],
+    [
+     "Q",
+     "g"
+    ],
+    [
+     "T",
+     "f"
+    ],
+    [
+     "J",
+     "i"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p076",
+   "pares": [
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "U",
+     "u"
+    ],
+    [
+     "K",
+     "k"
+    ],
+    [
+     "P",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p077",
+   "pares": [
+    [
+     "P",
+     "d"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "L",
+     "i"
+    ],
+    [
+     "V",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p078",
+   "pares": [
+    [
+     "O",
+     "c"
+    ],
+    [
+     "L",
+     "i"
+    ],
+    [
+     "K",
+     "h"
+    ],
+    [
+     "E",
+     "y"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p079",
+   "pares": [
+    [
+     "V",
+     "d"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "B",
+     "q"
+    ],
+    [
+     "L",
+     "l"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p080",
+   "pares": [
+    [
+     "H",
+     "h"
+    ],
+    [
+     "G",
+     "w"
+    ],
+    [
+     "P",
+     "p"
+    ],
+    [
+     "N",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p081",
+   "pares": [
+    [
+     "E",
+     "e"
+    ],
+    [
+     "J",
+     "i"
+    ],
+    [
+     "X",
+     "x"
+    ],
+    [
+     "B",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p082",
+   "pares": [
+    [
+     "R",
+     "r"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "Q",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p083",
+   "pares": [
+    [
+     "G",
+     "g"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "D",
+     "d"
+    ],
+    [
+     "J",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p084",
+   "pares": [
+    [
+     "F",
+     "f"
+    ],
+    [
+     "L",
+     "j"
+    ],
+    [
+     "D",
+     "d"
+    ],
+    [
+     "B",
+     "x"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p085",
+   "pares": [
+    [
+     "F",
+     "t"
+    ],
+    [
+     "W",
+     "w"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "H",
+     "h"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p086",
+   "pares": [
+    [
+     "I",
+     "i"
+    ],
+    [
+     "U",
+     "v"
+    ],
+    [
+     "C",
+     "c"
+    ],
+    [
+     "R",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p087",
+   "pares": [
+    [
+     "N",
+     "m"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "L",
+     "j"
+    ],
+    [
+     "S",
+     "z"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p088",
+   "pares": [
+    [
+     "A",
+     "a"
+    ],
+    [
+     "X",
+     "x"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "C",
+     "c"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p089",
+   "pares": [
+    [
+     "B",
+     "b"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "P",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p090",
+   "pares": [
+    [
+     "H",
+     "n"
+    ],
+    [
+     "N",
+     "u"
+    ],
+    [
+     "Z",
+     "e"
+    ],
+    [
+     "R",
+     "f"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p091",
+   "pares": [
+    [
+     "J",
+     "i"
+    ],
+    [
+     "U",
+     "t"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "V",
+     "u"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p092",
+   "pares": [
+    [
+     "K",
+     "k"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "O",
+     "q"
+    ],
+    [
+     "P",
+     "p"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p093",
+   "pares": [
+    [
+     "C",
+     "c"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "I",
+     "j"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p094",
+   "pares": [
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "Q",
+     "a"
+    ],
+    [
+     "C",
+     "b"
+    ],
+    [
+     "V",
+     "v"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p095",
+   "pares": [
+    [
+     "B",
+     "g"
+    ],
+    [
+     "L",
+     "j"
+    ],
+    [
+     "F",
+     "s"
+    ],
+    [
+     "V",
+     "y"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p096",
+   "pares": [
+    [
+     "N",
+     "h"
+    ],
+    [
+     "C",
+     "j"
+    ],
+    [
+     "D",
+     "l"
+    ],
+    [
+     "F",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p097",
+   "pares": [
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "G",
+     "g"
+    ],
+    [
+     "B",
+     "b"
+    ],
+    [
+     "O",
+     "a"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p098",
+   "pares": [
+    [
+     "D",
+     "d"
+    ],
+    [
+     "L",
+     "g"
+    ],
+    [
+     "X",
+     "a"
+    ],
+    [
+     "N",
+     "h"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p099",
+   "pares": [
+    [
+     "V",
+     "v"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "Q",
+     "g"
+    ],
+    [
+     "H",
+     "k"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p100",
+   "pares": [
+    [
+     "R",
+     "r"
+    ],
+    [
+     "O",
+     "o"
+    ],
+    [
+     "J",
+     "j"
+    ],
+    [
+     "A",
+     "a"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p101",
+   "pares": [
+    [
+     "G",
+     "g"
+    ],
+    [
+     "O",
+     "o"
+    ],
+    [
+     "E",
+     "e"
+    ],
+    [
+     "F",
+     "f"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p102",
+   "pares": [
+    [
+     "J",
+     "z"
+    ],
+    [
+     "F",
+     "t"
+    ],
+    [
+     "R",
+     "q"
+    ],
+    [
+     "D",
+     "d"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p103",
+   "pares": [
+    [
+     "I",
+     "i"
+    ],
+    [
+     "L",
+     "l"
+    ],
+    [
+     "G",
+     "g"
+    ],
+    [
+     "S",
+     "s"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p104",
+   "pares": [
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "V",
+     "v"
+    ],
+    [
+     "F",
+     "f"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p105",
+   "pares": [
+    [
+     "F",
+     "n"
+    ],
+    [
+     "J",
+     "s"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "G",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p106",
+   "pares": [
+    [
+     "D",
+     "d"
+    ],
+    [
+     "I",
+     "t"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "O",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p107",
+   "pares": [
+    [
+     "U",
+     "n"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "G",
+     "q"
+    ],
+    [
+     "F",
+     "q"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p108",
+   "pares": [
+    [
+     "N",
+     "h"
+    ],
+    [
+     "D",
+     "b"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "J",
+     "i"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p109",
+   "pares": [
+    [
+     "D",
+     "p"
+    ],
+    [
+     "W",
+     "m"
+    ],
+    [
+     "H",
+     "z"
+    ],
+    [
+     "Z",
+     "s"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p110",
+   "pares": [
+    [
+     "K",
+     "k"
+    ],
+    [
+     "G",
+     "g"
+    ],
+    [
+     "S",
+     "a"
+    ],
+    [
+     "C",
+     "e"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p111",
+   "pares": [
+    [
+     "N",
+     "n"
+    ],
+    [
+     "R",
+     "d"
+    ],
+    [
+     "W",
+     "w"
+    ],
+    [
+     "C",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p112",
+   "pares": [
+    [
+     "S",
+     "s"
+    ],
+    [
+     "E",
+     "e"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "W",
+     "n"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p113",
+   "pares": [
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "N",
+     "m"
+    ],
+    [
+     "B",
+     "b"
+    ],
+    [
+     "R",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 2
+  },
+  {
+   "id": "p114",
+   "pares": [
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "E",
+     "e"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "H",
+     "h"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p115",
+   "pares": [
+    [
+     "O",
+     "o"
+    ],
+    [
+     "I",
+     "i"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "C",
+     "c"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 4
+  },
+  {
+   "id": "p116",
+   "pares": [
+    [
+     "L",
+     "l"
+    ],
+    [
+     "Q",
+     "d"
+    ],
+    [
+     "F",
+     "f"
+    ],
+    [
+     "I",
+     "i"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p117",
+   "pares": [
+    [
+     "X",
+     "k"
+    ],
+    [
+     "Y",
+     "e"
+    ],
+    [
+     "H",
+     "k"
+    ],
+    [
+     "P",
+     "o"
+    ]
+   ],
+   "maiusculas_em_cima": false,
+   "resposta_correta": 0
+  },
+  {
+   "id": "p118",
+   "pares": [
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "O",
+     "c"
+    ],
+    [
+     "I",
+     "i"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 3
+  },
+  {
+   "id": "p119",
+   "pares": [
+    [
+     "A",
+     "h"
+    ],
+    [
+     "S",
+     "z"
+    ],
+    [
+     "M",
+     "n"
+    ],
+    [
+     "R",
+     "r"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 1
+  },
+  {
+   "id": "p120",
+   "pares": [
+    [
+     "Y",
+     "g"
+    ],
+    [
+     "B",
+     "h"
+    ],
+    [
+     "I",
+     "o"
+    ],
+    [
+     "S",
+     "a"
+    ]
+   ],
+   "maiusculas_em_cima": true,
+   "resposta_correta": 0
+  }
+ ],
+ "numerica": [
+  {
+   "id": "n001",
+   "numeros": [
+    25,
+    4,
+    9
+   ],
+   "resposta_correta": 25
+  },
+  {
+   "id": "n002",
+   "numeros": [
+    11,
+    23,
+    25
+   ],
+   "resposta_correta": 11
+  },
+  {
+   "id": "n003",
+   "numeros": [
+    26,
+    10,
+    12
+   ],
+   "resposta_correta": 26
+  },
+  {
+   "id": "n004",
+   "numeros": [
+    11,
+    5,
+    14
+   ],
+   "resposta_correta": 5
+  },
+  {
+   "id": "n005",
+   "numeros": [
+    13,
+    10,
+    14
+   ],
+   "resposta_correta": 10
+  },
+  {
+   "id": "n006",
+   "numeros": [
+    3,
+    12,
+    1
+   ],
+   "resposta_correta": 12
+  },
+  {
+   "id": "n007",
+   "numeros": [
+    20,
+    6,
+    15
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n008",
+   "numeros": [
+    15,
+    30,
+    14
+   ],
+   "resposta_correta": 30
+  },
+  {
+   "id": "n009",
+   "numeros": [
+    6,
+    14,
+    13
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n010",
+   "numeros": [
+    22,
+    14,
+    16
+   ],
+   "resposta_correta": 22
+  },
+  {
+   "id": "n011",
+   "numeros": [
+    15,
+    9,
+    20
+   ],
+   "resposta_correta": 9
+  },
+  {
+   "id": "n012",
+   "numeros": [
+    7,
+    19,
+    24
+   ],
+   "resposta_correta": 7
+  },
+  {
+   "id": "n013",
+   "numeros": [
+    15,
+    4,
+    21
+   ],
+   "resposta_correta": 4
+  },
+  {
+   "id": "n014",
+   "numeros": [
+    28,
+    25,
+    14
+   ],
+   "resposta_correta": 14
+  },
+  {
+   "id": "n015",
+   "numeros": [
+    28,
+    7,
+    2
+   ],
+   "resposta_correta": 28
+  },
+  {
+   "id": "n016",
+   "numeros": [
+    28,
+    1,
+    18
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n017",
+   "numeros": [
+    16,
+    25,
+    23
+   ],
+   "resposta_correta": 16
+  },
+  {
+   "id": "n018",
+   "numeros": [
+    12,
+    8,
+    27
+   ],
+   "resposta_correta": 27
+  },
+  {
+   "id": "n019",
+   "numeros": [
+    18,
+    25,
+    12
+   ],
+   "resposta_correta": 25
+  },
+  {
+   "id": "n020",
+   "numeros": [
+    22,
+    1,
+    16
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n021",
+   "numeros": [
+    4,
+    6,
+    14
+   ],
+   "resposta_correta": 14
+  },
+  {
+   "id": "n022",
+   "numeros": [
+    24,
+    1,
+    3
+   ],
+   "resposta_correta": 24
+  },
+  {
+   "id": "n023",
+   "numeros": [
+    17,
+    27,
+    14
+   ],
+   "resposta_correta": 27
+  },
+  {
+   "id": "n024",
+   "numeros": [
+    24,
+    16,
+    10
+   ],
+   "resposta_correta": 24
+  },
+  {
+   "id": "n025",
+   "numeros": [
+    20,
+    1,
+    23
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n026",
+   "numeros": [
+    30,
+    19,
+    10
+   ],
+   "resposta_correta": 30
+  },
+  {
+   "id": "n027",
+   "numeros": [
+    29,
+    30,
+    27
+   ],
+   "resposta_correta": 27
+  },
+  {
+   "id": "n028",
+   "numeros": [
+    2,
+    13,
+    6
+   ],
+   "resposta_correta": 13
+  },
+  {
+   "id": "n029",
+   "numeros": [
+    29,
+    8,
+    26
+   ],
+   "resposta_correta": 8
+  },
+  {
+   "id": "n030",
+   "numeros": [
+    30,
+    1,
+    8
+   ],
+   "resposta_correta": 30
+  },
+  {
+   "id": "n031",
+   "numeros": [
+    22,
+    30,
+    4
+   ],
+   "resposta_correta": 4
+  },
+  {
+   "id": "n032",
+   "numeros": [
+    28,
+    8,
+    15
+   ],
+   "resposta_correta": 28
+  },
+  {
+   "id": "n033",
+   "numeros": [
+    14,
+    22,
+    2
+   ],
+   "resposta_correta": 2
+  },
+  {
+   "id": "n034",
+   "numeros": [
+    21,
+    5,
+    28
+   ],
+   "resposta_correta": 5
+  },
+  {
+   "id": "n035",
+   "numeros": [
+    6,
+    26,
+    19
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n036",
+   "numeros": [
+    15,
+    8,
+    4
+   ],
+   "resposta_correta": 15
+  },
+  {
+   "id": "n037",
+   "numeros": [
+    1,
+    30,
+    17
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n038",
+   "numeros": [
+    13,
+    16,
+    9
+   ],
+   "resposta_correta": 9
+  },
+  {
+   "id": "n039",
+   "numeros": [
+    8,
+    23,
+    24
+   ],
+   "resposta_correta": 8
+  },
+  {
+   "id": "n040",
+   "numeros": [
+    24,
+    1,
+    18
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n041",
+   "numeros": [
+    8,
+    1,
+    23
+   ],
+   "resposta_correta": 23
+  },
+  {
+   "id": "n042",
+   "numeros": [
+    24,
+    4,
+    1
+   ],
+   "resposta_correta": 24
+  },
+  {
+   "id": "n043",
+   "numeros": [
+    22,
+    28,
+    14
+   ],
+   "resposta_correta": 14
+  },
+  {
+   "id": "n044",
+   "numeros": [
+    28,
+    27,
+    6
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n045",
+   "numeros": [
+    19,
+    9,
+    17
+   ],
+   "resposta_correta": 9
+  },
+  {
+   "id": "n046",
+   "numeros": [
+    27,
+    13,
+    6
+   ],
+   "resposta_correta": 27
+  },
+  {
+   "id": "n047",
+   "numeros": [
+    17,
+    28,
+    10
+   ],
+   "resposta_correta": 28
+  },
+  {
+   "id": "n048",
+   "numeros": [
+    3,
+    18,
+    23
+   ],
+   "resposta_correta": 3
+  },
+  {
+   "id": "n049",
+   "numeros": [
+    8,
+    15,
+    30
+   ],
+   "resposta_correta": 30
+  },
+  {
+   "id": "n050",
+   "numeros": [
+    9,
+    26,
+    2
+   ],
+   "resposta_correta": 26
+  },
+  {
+   "id": "n051",
+   "numeros": [
+    21,
+    54,
+    30
+   ],
+   "resposta_correta": 54
+  },
+  {
+   "id": "n052",
+   "numeros": [
+    34,
+    79,
+    90
+   ],
+   "resposta_correta": 34
+  },
+  {
+   "id": "n053",
+   "numeros": [
+    20,
+    77,
+    19
+   ],
+   "resposta_correta": 77
+  },
+  {
+   "id": "n054",
+   "numeros": [
+    49,
+    38,
+    21
+   ],
+   "resposta_correta": 21
+  },
+  {
+   "id": "n055",
+   "numeros": [
+    5,
+    31,
+    68
+   ],
+   "resposta_correta": 68
+  },
+  {
+   "id": "n056",
+   "numeros": [
+    59,
+    18,
+    19
+   ],
+   "resposta_correta": 59
+  },
+  {
+   "id": "n057",
+   "numeros": [
+    37,
+    17,
+    33
+   ],
+   "resposta_correta": 17
+  },
+  {
+   "id": "n058",
+   "numeros": [
+    68,
+    27,
+    95
+   ],
+   "resposta_correta": 27
+  },
+  {
+   "id": "n059",
+   "numeros": [
+    78,
+    94,
+    58
+   ],
+   "resposta_correta": 58
+  },
+  {
+   "id": "n060",
+   "numeros": [
+    14,
+    34,
+    57
+   ],
+   "resposta_correta": 57
+  },
+  {
+   "id": "n061",
+   "numeros": [
+    84,
+    80,
+    9
+   ],
+   "resposta_correta": 9
+  },
+  {
+   "id": "n062",
+   "numeros": [
+    52,
+    97,
+    2
+   ],
+   "resposta_correta": 2
+  },
+  {
+   "id": "n063",
+   "numeros": [
+    27,
+    16,
+    59
+   ],
+   "resposta_correta": 59
+  },
+  {
+   "id": "n064",
+   "numeros": [
+    92,
+    6,
+    84
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n065",
+   "numeros": [
+    81,
+    57,
+    99
+   ],
+   "resposta_correta": 57
+  },
+  {
+   "id": "n066",
+   "numeros": [
+    75,
+    2,
+    68
+   ],
+   "resposta_correta": 2
+  },
+  {
+   "id": "n067",
+   "numeros": [
+    54,
+    72,
+    80
+   ],
+   "resposta_correta": 54
+  },
+  {
+   "id": "n068",
+   "numeros": [
+    70,
+    50,
+    11
+   ],
+   "resposta_correta": 11
+  },
+  {
+   "id": "n069",
+   "numeros": [
+    99,
+    48,
+    51
+   ],
+   "resposta_correta": 99
+  },
+  {
+   "id": "n070",
+   "numeros": [
+    85,
+    8,
+    73
+   ],
+   "resposta_correta": 8
+  },
+  {
+   "id": "n071",
+   "numeros": [
+    3,
+    81,
+    2
+   ],
+   "resposta_correta": 81
+  },
+  {
+   "id": "n072",
+   "numeros": [
+    49,
+    83,
+    53
+   ],
+   "resposta_correta": 83
+  },
+  {
+   "id": "n073",
+   "numeros": [
+    64,
+    7,
+    29
+   ],
+   "resposta_correta": 64
+  },
+  {
+   "id": "n074",
+   "numeros": [
+    91,
+    5,
+    19
+   ],
+   "resposta_correta": 91
+  },
+  {
+   "id": "n075",
+   "numeros": [
+    53,
+    2,
+    88
+   ],
+   "resposta_correta": 2
+  },
+  {
+   "id": "n076",
+   "numeros": [
+    31,
+    40,
+    27
+   ],
+   "resposta_correta": 40
+  },
+  {
+   "id": "n077",
+   "numeros": [
+    8,
+    53,
+    97
+   ],
+   "resposta_correta": 8
+  },
+  {
+   "id": "n078",
+   "numeros": [
+    63,
+    20,
+    5
+   ],
+   "resposta_correta": 63
+  },
+  {
+   "id": "n079",
+   "numeros": [
+    6,
+    41,
+    24
+   ],
+   "resposta_correta": 6
+  },
+  {
+   "id": "n080",
+   "numeros": [
+    95,
+    66,
+    91
+   ],
+   "resposta_correta": 66
+  },
+  {
+   "id": "n081",
+   "numeros": [
+    58,
+    92,
+    48
+   ],
+   "resposta_correta": 92
+  },
+  {
+   "id": "n082",
+   "numeros": [
+    49,
+    97,
+    67
+   ],
+   "resposta_correta": 97
+  },
+  {
+   "id": "n083",
+   "numeros": [
+    46,
+    63,
+    79
+   ],
+   "resposta_correta": 46
+  },
+  {
+   "id": "n084",
+   "numeros": [
+    3,
+    71,
+    40
+   ],
+   "resposta_correta": 3
+  },
+  {
+   "id": "n085",
+   "numeros": [
+    61,
+    62,
+    56
+   ],
+   "resposta_correta": 56
+  },
+  {
+   "id": "n086",
+   "numeros": [
+    19,
+    70,
+    58
+   ],
+   "resposta_correta": 19
+  },
+  {
+   "id": "n087",
+   "numeros": [
+    28,
+    63,
+    86
+   ],
+   "resposta_correta": 28
+  },
+  {
+   "id": "n088",
+   "numeros": [
+    10,
+    19,
+    44
+   ],
+   "resposta_correta": 44
+  },
+  {
+   "id": "n089",
+   "numeros": [
+    73,
+    76,
+    82
+   ],
+   "resposta_correta": 82
+  },
+  {
+   "id": "n090",
+   "numeros": [
+    81,
+    1,
+    72
+   ],
+   "resposta_correta": 1
+  },
+  {
+   "id": "n091",
+   "numeros": [
+    50,
+    32,
+    38
+   ],
+   "resposta_correta": 50
+  },
+  {
+   "id": "n092",
+   "numeros": [
+    25,
+    34,
+    61
+   ],
+   "resposta_correta": 61
+  },
+  {
+   "id": "n093",
+   "numeros": [
+    82,
+    99,
+    66
+   ],
+   "resposta_correta": 99
+  },
+  {
+   "id": "n094",
+   "numeros": [
+    60,
+    56,
+    73
+   ],
+   "resposta_correta": 73
+  },
+  {
+   "id": "n095",
+   "numeros": [
+    12,
+    7,
+    13
+   ],
+   "resposta_correta": 7
+  },
+  {
+   "id": "n096",
+   "numeros": [
+    40,
+    21,
+    98
+   ],
+   "resposta_correta": 98
+  },
+  {
+   "id": "n097",
+   "numeros": [
+    50,
+    10,
+    32
+   ],
+   "resposta_correta": 10
+  },
+  {
+   "id": "n098",
+   "numeros": [
+    3,
+    45,
+    98
+   ],
+   "resposta_correta": 98
+  },
+  {
+   "id": "n099",
+   "numeros": [
+    50,
+    19,
+    80
+   ],
+   "resposta_correta": 19
+  },
+  {
+   "id": "n100",
+   "numeros": [
+    55,
+    96,
+    2
+   ],
+   "resposta_correta": 2
+  },
+  {
+   "id": "n101",
+   "numeros": [
+    96,
+    48,
+    21
+   ],
+   "resposta_correta": 96
+  },
+  {
+   "id": "n102",
+   "numeros": [
+    90,
+    55,
+    16
+   ],
+   "resposta_correta": 16
+  },
+  {
+   "id": "n103",
+   "numeros": [
+    94,
+    75,
+    17
+   ],
+   "resposta_correta": 17
+  },
+  {
+   "id": "n104",
+   "numeros": [
+    14,
+    64,
+    77
+   ],
+   "resposta_correta": 14
+  },
+  {
+   "id": "n105",
+   "numeros": [
+    45,
+    83,
+    70
+   ],
+   "resposta_correta": 45
+  },
+  {
+   "id": "n106",
+   "numeros": [
+    15,
+    26,
+    49
+   ],
+   "resposta_correta": 49
+  },
+  {
+   "id": "n107",
+   "numeros": [
+    77,
+    61,
+    29
+   ],
+   "resposta_correta": 29
+  },
+  {
+   "id": "n108",
+   "numeros": [
+    18,
+    35,
+    44
+   ],
+   "resposta_correta": 18
+  },
+  {
+   "id": "n109",
+   "numeros": [
+    22,
+    91,
+    90
+   ],
+   "resposta_correta": 22
+  },
+  {
+   "id": "n110",
+   "numeros": [
+    35,
+    22,
+    51
+   ],
+   "resposta_correta": 51
+  },
+  {
+   "id": "n111",
+   "numeros": [
+    51,
+    38,
+    59
+   ],
+   "resposta_correta": 38
+  },
+  {
+   "id": "n112",
+   "numeros": [
+    33,
+    38,
+    39
+   ],
+   "resposta_correta": 33
+  },
+  {
+   "id": "n113",
+   "numeros": [
+    70,
+    19,
+    64
+   ],
+   "resposta_correta": 19
+  },
+  {
+   "id": "n114",
+   "numeros": [
+    55,
+    15,
+    2
+   ],
+   "resposta_correta": 55
+  },
+  {
+   "id": "n115",
+   "numeros": [
+    12,
+    51,
+    6
+   ],
+   "resposta_correta": 51
+  },
+  {
+   "id": "n116",
+   "numeros": [
+    60,
+    62,
+    81
+   ],
+   "resposta_correta": 81
+  },
+  {
+   "id": "n117",
+   "numeros": [
+    32,
+    58,
+    85
+   ],
+   "resposta_correta": 85
+  },
+  {
+   "id": "n118",
+   "numeros": [
+    38,
+    48,
+    91
+   ],
+   "resposta_correta": 91
+  },
+  {
+   "id": "n119",
+   "numeros": [
+    76,
+    96,
+    60
+   ],
+   "resposta_correta": 96
+  },
+  {
+   "id": "n120",
+   "numeros": [
+    50,
+    74,
+    22
+   ],
+   "resposta_correta": 22
+  }
+ ],
+ "palavras": [
+  {
+   "id": "w001",
+   "palavras": [
+    "alegre",
+    "janela",
+    "contente"
+   ],
+   "resposta_correta": "janela",
+   "explicacao": "“alegre” e “contente” são sinónimos; “janela” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w002",
+   "palavras": [
+    "veloz",
+    "cadeira",
+    "rápido"
+   ],
+   "resposta_correta": "cadeira",
+   "explicacao": "“rápido” e “veloz” são sinónimos; “cadeira” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w003",
+   "palavras": [
+    "pequeno",
+    "azul",
+    "grande"
+   ],
+   "resposta_correta": "azul",
+   "explicacao": "“grande” e “pequeno” são opostos; “azul” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w004",
+   "palavras": [
+    "montanha",
+    "iniciar",
+    "começar"
+   ],
+   "resposta_correta": "montanha",
+   "explicacao": "“começar” e “iniciar” são sinónimos; “montanha” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w005",
+   "palavras": [
+    "sabão",
+    "moderno",
+    "antigo"
+   ],
+   "resposta_correta": "sabão",
+   "explicacao": "“antigo” e “moderno” são opostos; “sabão” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w006",
+   "palavras": [
+    "pássaro",
+    "largo",
+    "estreito"
+   ],
+   "resposta_correta": "pássaro",
+   "explicacao": "“largo” e “estreito” são opostos; “pássaro” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w007",
+   "palavras": [
+    "lápis",
+    "vazio",
+    "cheio"
+   ],
+   "resposta_correta": "lápis",
+   "explicacao": "“cheio” e “vazio” são opostos; “lápis” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w008",
+   "palavras": [
+    "seco",
+    "relógio",
+    "molhado"
+   ],
+   "resposta_correta": "relógio",
+   "explicacao": "“seco” e “molhado” são opostos; “relógio” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w009",
+   "palavras": [
+    "nuvem",
+    "vender",
+    "comprar"
+   ],
+   "resposta_correta": "nuvem",
+   "explicacao": "“comprar” e “vender” são opostos; “nuvem” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w010",
+   "palavras": [
+    "responder",
+    "tijolo",
+    "perguntar"
+   ],
+   "resposta_correta": "tijolo",
+   "explicacao": "“perguntar” e “responder” são opostos; “tijolo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w011",
+   "palavras": [
+    "pobre",
+    "rico",
+    "garfo"
+   ],
+   "resposta_correta": "garfo",
+   "explicacao": "“rico” e “pobre” são opostos; “garfo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w012",
+   "palavras": [
+    "abrir",
+    "fechar",
+    "laranja"
+   ],
+   "resposta_correta": "laranja",
+   "explicacao": "“abrir” e “fechar” são opostos; “laranja” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w013",
+   "palavras": [
+    "dia",
+    "martelo",
+    "noite"
+   ],
+   "resposta_correta": "martelo",
+   "explicacao": "“dia” e “noite” são opostos; “martelo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w014",
+   "palavras": [
+    "valente",
+    "corajoso",
+    "colher"
+   ],
+   "resposta_correta": "colher",
+   "explicacao": "“valente” e “corajoso” são sinónimos; “colher” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w015",
+   "palavras": [
+    "escada",
+    "calmo",
+    "sereno"
+   ],
+   "resposta_correta": "escada",
+   "explicacao": "“calmo” e “sereno” são sinónimos; “escada” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w016",
+   "palavras": [
+    "bicicleta",
+    "triste",
+    "melancólico"
+   ],
+   "resposta_correta": "bicicleta",
+   "explicacao": "“triste” e “melancólico” são sinónimos; “bicicleta” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w017",
+   "palavras": [
+    "camisola",
+    "fácil",
+    "difícil"
+   ],
+   "resposta_correta": "camisola",
+   "explicacao": "“difícil” e “fácil” são opostos; “camisola” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w018",
+   "palavras": [
+    "farol",
+    "erguer",
+    "levantar"
+   ],
+   "resposta_correta": "farol",
+   "explicacao": "“erguer” e “levantar” são sinónimos; “farol” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w019",
+   "palavras": [
+    "terminar",
+    "cenoura",
+    "acabar"
+   ],
+   "resposta_correta": "cenoura",
+   "explicacao": "“terminar” e “acabar” são sinónimos; “cenoura” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w020",
+   "palavras": [
+    "parafuso",
+    "doce",
+    "amargo"
+   ],
+   "resposta_correta": "parafuso",
+   "explicacao": "“doce” e “amargo” são opostos; “parafuso” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w021",
+   "palavras": [
+    "forte",
+    "robusto",
+    "envelope"
+   ],
+   "resposta_correta": "envelope",
+   "explicacao": "“forte” e “robusto” são sinónimos; “envelope” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w022",
+   "palavras": [
+    "ocultar",
+    "trovão",
+    "esconder"
+   ],
+   "resposta_correta": "trovão",
+   "explicacao": "“esconder” e “ocultar” são sinónimos; “trovão” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w023",
+   "palavras": [
+    "mentira",
+    "verdade",
+    "tapete"
+   ],
+   "resposta_correta": "tapete",
+   "explicacao": "“mentira” e “verdade” são opostos; “tapete” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w024",
+   "palavras": [
+    "perder",
+    "girafa",
+    "ganhar"
+   ],
+   "resposta_correta": "girafa",
+   "explicacao": "“ganhar” e “perder” são opostos; “girafa” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w025",
+   "palavras": [
+    "descer",
+    "subir",
+    "tesoura"
+   ],
+   "resposta_correta": "tesoura",
+   "explicacao": "“subir” e “descer” são opostos; “tesoura” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w026",
+   "palavras": [
+    "claro",
+    "sapato",
+    "escuro"
+   ],
+   "resposta_correta": "sapato",
+   "explicacao": "“claro” e “escuro” são opostos; “sapato” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w027",
+   "palavras": [
+    "limpo",
+    "sujo",
+    "violino"
+   ],
+   "resposta_correta": "violino",
+   "explicacao": "“limpo” e “sujo” são opostos; “violino” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w028",
+   "palavras": [
+    "longe",
+    "distante",
+    "queijo"
+   ],
+   "resposta_correta": "queijo",
+   "explicacao": "“longe” e “distante” são sinónimos; “queijo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w029",
+   "palavras": [
+    "belo",
+    "ponte",
+    "bonito"
+   ],
+   "resposta_correta": "ponte",
+   "explicacao": "“belo” e “bonito” são sinónimos; “ponte” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w030",
+   "palavras": [
+    "almofada",
+    "raro",
+    "comum"
+   ],
+   "resposta_correta": "almofada",
+   "explicacao": "“raro” e “comum” são opostos; “almofada” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w031",
+   "palavras": [
+    "biblioteca",
+    "duro",
+    "mole"
+   ],
+   "resposta_correta": "biblioteca",
+   "explicacao": "“duro” e “mole” são opostos; “biblioteca” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w032",
+   "palavras": [
+    "sair",
+    "cebola",
+    "entrar"
+   ],
+   "resposta_correta": "cebola",
+   "explicacao": "“entrar” e “sair” são opostos; “cebola” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w033",
+   "palavras": [
+    "lento",
+    "espelho",
+    "vagaroso"
+   ],
+   "resposta_correta": "espelho",
+   "explicacao": "“lento” e “vagaroso” são sinónimos; “espelho” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w034",
+   "palavras": [
+    "velho",
+    "canela",
+    "novo"
+   ],
+   "resposta_correta": "canela",
+   "explicacao": "“novo” e “velho” são opostos; “canela” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w035",
+   "palavras": [
+    "berrar",
+    "prato",
+    "gritar"
+   ],
+   "resposta_correta": "prato",
+   "explicacao": "“gritar” e “berrar” são sinónimos; “prato” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w036",
+   "palavras": [
+    "nunca",
+    "sempre",
+    "caneta"
+   ],
+   "resposta_correta": "caneta",
+   "explicacao": "“sempre” e “nunca” são opostos; “caneta” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w037",
+   "palavras": [
+    "aceitar",
+    "recusar",
+    "gaivota"
+   ],
+   "resposta_correta": "gaivota",
+   "explicacao": "“aceitar” e “recusar” são opostos; “gaivota” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w038",
+   "palavras": [
+    "pesado",
+    "toalha",
+    "leve"
+   ],
+   "resposta_correta": "toalha",
+   "explicacao": "“pesado” e “leve” são opostos; “toalha” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w039",
+   "palavras": [
+    "rir",
+    "parede",
+    "chorar"
+   ],
+   "resposta_correta": "parede",
+   "explicacao": "“rir” e “chorar” são opostos; “parede” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w040",
+   "palavras": [
+    "quente",
+    "bússola",
+    "frio"
+   ],
+   "resposta_correta": "bússola",
+   "explicacao": "“quente” e “frio” são opostos; “bússola” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w041",
+   "palavras": [
+    "cortina",
+    "depois",
+    "antes"
+   ],
+   "resposta_correta": "cortina",
+   "explicacao": "“antes” e “depois” são opostos; “cortina” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w042",
+   "palavras": [
+    "tomate",
+    "dentro",
+    "fora"
+   ],
+   "resposta_correta": "tomate",
+   "explicacao": "“dentro” e “fora” são opostos; “tomate” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w043",
+   "palavras": [
+    "lâmpada",
+    "enorme",
+    "gigante"
+   ],
+   "resposta_correta": "lâmpada",
+   "explicacao": "“enorme” e “gigante” são sinónimos; “lâmpada” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w044",
+   "palavras": [
+    "risco",
+    "pêssego",
+    "perigo"
+   ],
+   "resposta_correta": "pêssego",
+   "explicacao": "“perigo” e “risco” são sinónimos; “pêssego” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w045",
+   "palavras": [
+    "dialogar",
+    "castelo",
+    "conversar"
+   ],
+   "resposta_correta": "castelo",
+   "explicacao": "“conversar” e “dialogar” são sinónimos; “castelo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w046",
+   "palavras": [
+    "balde",
+    "esperto",
+    "inteligente"
+   ],
+   "resposta_correta": "balde",
+   "explicacao": "“inteligente” e “esperto” são sinónimos; “balde” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w047",
+   "palavras": [
+    "inimigo",
+    "adversário",
+    "pepino"
+   ],
+   "resposta_correta": "pepino",
+   "explicacao": "“inimigo” e “adversário” são sinónimos; “pepino” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w048",
+   "palavras": [
+    "vitória",
+    "agrafador",
+    "derrota"
+   ],
+   "resposta_correta": "agrafador",
+   "explicacao": "“vitória” e “derrota” são opostos; “agrafador” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w049",
+   "palavras": [
+    "mesquinho",
+    "generoso",
+    "elevador"
+   ],
+   "resposta_correta": "elevador",
+   "explicacao": "“generoso” e “mesquinho” são opostos; “elevador” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w050",
+   "palavras": [
+    "exausto",
+    "ananás",
+    "cansado"
+   ],
+   "resposta_correta": "ananás",
+   "explicacao": "“cansado” e “exausto” são sinónimos; “ananás” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w051",
+   "palavras": [
+    "inquieto",
+    "ansioso",
+    "régua"
+   ],
+   "resposta_correta": "régua",
+   "explicacao": "“ansioso” e “inquieto” são sinónimos; “régua” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w052",
+   "palavras": [
+    "cavalo",
+    "cedo",
+    "tarde"
+   ],
+   "resposta_correta": "cavalo",
+   "explicacao": "“cedo” e “tarde” são opostos; “cavalo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w053",
+   "palavras": [
+    "companheiro",
+    "trigo",
+    "amigo"
+   ],
+   "resposta_correta": "trigo",
+   "explicacao": "“amigo” e “companheiro” são sinónimos; “trigo” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w054",
+   "palavras": [
+    "caos",
+    "pinheiro",
+    "ordem"
+   ],
+   "resposta_correta": "pinheiro",
+   "explicacao": "“ordem” e “caos” são opostos; “pinheiro” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w055",
+   "palavras": [
+    "construir",
+    "gaveta",
+    "destruir"
+   ],
+   "resposta_correta": "gaveta",
+   "explicacao": "“construir” e “destruir” são opostos; “gaveta” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w056",
+   "palavras": [
+    "oceano",
+    "solicitar",
+    "pedir"
+   ],
+   "resposta_correta": "oceano",
+   "explicacao": "“pedir” e “solicitar” são sinónimos; “oceano” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w057",
+   "palavras": [
+    "atrás",
+    "frente",
+    "manteiga"
+   ],
+   "resposta_correta": "manteiga",
+   "explicacao": "“atrás” e “frente” são opostos; “manteiga” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w058",
+   "palavras": [
+    "cometa",
+    "ajudar",
+    "auxiliar"
+   ],
+   "resposta_correta": "cometa",
+   "explicacao": "“ajudar” e “auxiliar” são sinónimos; “cometa” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w059",
+   "palavras": [
+    "complexo",
+    "simples",
+    "casaco"
+   ],
+   "resposta_correta": "casaco",
+   "explicacao": "“simples” e “complexo” são opostos; “casaco” não tem relação com nenhuma delas."
+  },
+  {
+   "id": "w060",
+   "palavras": [
+    "furioso",
+    "semente",
+    "zangado"
+   ],
+   "resposta_correta": "semente",
+   "explicacao": "“zangado” e “furioso” são sinónimos; “semente” não tem relação com nenhuma delas."
+  }
+ ],
+ "espacial": [
+  {
+   "id": "e001",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e002",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e003",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e004",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e005",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e006",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e007",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e008",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e009",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e010",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e011",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e012",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e013",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e014",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e015",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e016",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e017",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e018",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e019",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e020",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e021",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e022",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e023",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e024",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e025",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e026",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e027",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e028",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e029",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e030",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e031",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e032",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e033",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e034",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e035",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e036",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e037",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e038",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e039",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e040",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e041",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e042",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e043",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e044",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e045",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e046",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e047",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e048",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e049",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e050",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e051",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e052",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e053",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e054",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e055",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e056",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e057",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e058",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e059",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e060",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e061",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e062",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e063",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e064",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e065",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e066",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e067",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e068",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e069",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e070",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e071",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e072",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e073",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e074",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e075",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e076",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e077",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e078",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e079",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e080",
+   "caixa1": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e081",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e082",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": false
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e083",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 270,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e084",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 2
+  },
+  {
+   "id": "e085",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 270,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e086",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e087",
+   "caixa1": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 90,
+     "espelho": true
+    },
+    "base": {
+     "rot": 180,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 1
+  },
+  {
+   "id": "e088",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e089",
+   "caixa1": {
+    "topo": {
+     "rot": 270,
+     "espelho": true
+    },
+    "base": {
+     "rot": 90,
+     "espelho": false
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 180,
+     "espelho": true
+    },
+    "base": {
+     "rot": 0,
+     "espelho": false
+    }
+   },
+   "resposta_correta": 0
+  },
+  {
+   "id": "e090",
+   "caixa1": {
+    "topo": {
+     "rot": 0,
+     "espelho": false
+    },
+    "base": {
+     "rot": 90,
+     "espelho": true
+    }
+   },
+   "caixa2": {
+    "topo": {
+     "rot": 270,
+     "espelho": false
+    },
+    "base": {
+     "rot": 0,
+     "espelho": true
+    }
+   },
+   "resposta_correta": 0
+  }
+ ]
+}

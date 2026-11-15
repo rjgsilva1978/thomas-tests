@@ -1,0 +1,10 @@
+{
+  "name": "thomas-tests",
+  "private": true,
+  "type": "module",
+  "description": "Simulador de treino estático para os testes Thomas GIA, PPA e HPTI.",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}

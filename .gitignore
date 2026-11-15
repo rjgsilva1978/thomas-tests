@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+
+# Thomas International's copyrighted booklet: keep local, never publish
+Documents/Thomas_GIA_Instruções.pdf
