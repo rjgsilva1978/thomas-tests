@@ -3,6 +3,7 @@
 import { render, esc, fmtDate, fmtNum, pageHeader, btnPrimary, btnSecondary, card } from '../lib/dom.js';
 import { makeChart, theme } from '../lib/charts.js';
 import { SUBTESTES, renderItem, explain } from '../engines/gia-items.js';
+import { listPartials } from '../store.js';
 
 function stats(regs, penalizacao) {
   const certas = regs.filter((r) => r.correta).length;
@@ -47,6 +48,20 @@ export function show(attempt) {
       ${hint ? `<p class="mt-1 text-xs text-slate-500">${hint}</p>` : ''}
     </div>`;
 
+  const parcial = !!r.parcial;
+  const older = parcial ? listPartials().filter((a) => a.id !== attempt.id && a.data < attempt.data) : [];
+  const sign = (n, d) => `${n > 0 ? '+' : n < 0 ? '−' : ''}${fmtNum(Math.abs(n), d)}`;
+  const tone = (n) => (n > 0 ? 'text-green-700 dark:text-green-400' : n < 0 ? 'text-red-700 dark:text-red-400' : 'text-slate-500');
+  function deltaCell(s) {
+    const x = r.subtestes[s];
+    const prev = older.find((a) => a.resultado?.subtestes?.[s]);
+    const p = prev?.resultado.subtestes[s];
+    if (!p) return '<td class="pl-2 text-slate-400">—</td>';
+    const dp = Math.round((x.pontuacao - p.pontuacao) * 100) / 100;
+    const dq = x.precisao === null || p.precisao === null ? null : Math.round((x.precisao - p.precisao) * 10) / 10;
+    return `<td class="whitespace-nowrap pl-2 text-xs"><span class="${tone(dp)}">${sign(dp, 2)} pts</span>${dq === null ? '' : ` · <span class="${tone(dq)}">${sign(dq, 1)} pp</span>`}</td>`;
+  }
+
   const rows = r.ordem.map((s) => {
     const x = r.subtestes[s];
     return `
@@ -57,7 +72,8 @@ export function show(attempt) {
         <td class="px-2 text-slate-500">${x.omissoes}</td>
         <td class="px-2 font-semibold">${fmtNum(x.pontuacao, 2)}</td>
         <td class="px-2">${x.precisao === null ? '—' : `${fmtNum(x.precisao)}%`}</td>
-        <td class="pl-2">${secs(x.rt_medio)}</td>
+        <td class="${parcial ? 'px-2' : 'pl-2'}">${secs(x.rt_medio)}</td>
+        ${parcial ? deltaCell(s) : ''}
       </tr>`;
   }).join('');
 
@@ -65,7 +81,7 @@ export function show(attempt) {
   const tabs = [['todos', `Todos (${erros.length})`], ...r.ordem.map((s) => [s, `${SUBTESTES[s].nome} (${erros.filter((e) => e.sub === s).length})`])];
 
   const root = render(`
-    ${pageHeader('Resultados GIA', `${esc(fmtDate(attempt.data))}${r.modo_teste ? ' · modo de teste (tempos reduzidos)' : ''}`)}
+    ${pageHeader('Resultados GIA', `${parcial ? `Treino por secções · ${esc(r.ordem.map((s) => SUBTESTES[s].nome).join(', '))} · ` : ''}${esc(fmtDate(attempt.data))}${r.modo_teste ? ' · modo de teste (tempos reduzidos)' : ''}`)}
     <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
       ${kpi('Pontuação', fmtNum(t.pontuacao, 2), `+1 certa · −${r.penalizacao} errada`)}
       ${kpi('Total de acertos', t.certas, `${t.respondidas} respondidas`)}
@@ -78,7 +94,7 @@ export function show(attempt) {
       <div class="mt-3 overflow-x-auto">
         <table class="w-full text-center text-sm tabular-nums">
           <thead class="text-xs uppercase tracking-wide text-slate-400">
-            <tr><th class="pb-2 text-left">Subteste</th><th class="pb-2">Certas</th><th class="pb-2">Erradas</th><th class="pb-2">Omissões</th><th class="pb-2">Pontos</th><th class="pb-2">Precisão</th><th class="pb-2">Tempo médio</th></tr>
+            <tr><th class="pb-2 text-left">Subteste</th><th class="pb-2">Certas</th><th class="pb-2">Erradas</th><th class="pb-2">Omissões</th><th class="pb-2">Pontos</th><th class="pb-2">Precisão</th><th class="pb-2">Tempo médio</th>${parcial ? '<th class="pb-2" title="Variação face ao treino anterior desta secção">Δ vs anterior</th>' : ''}</tr>
           </thead>
           <tbody>${rows}</tbody>
         </table>
@@ -97,7 +113,10 @@ export function show(attempt) {
     </section>
 
     <div class="mt-6 flex flex-wrap gap-3">
-      <a href="#/gia" class="${btnPrimary}">Repetir teste</a>
+      ${parcial
+        ? `<a href="#/gia?secoes=${esc(r.ordem.join(','))}" class="${btnPrimary}">Repetir treino</a>
+      <a href="#/historico/gia-secoes?s=${esc(r.ordem[0])}" class="${btnSecondary}">Comparar secções</a>`
+        : `<a href="#/gia" class="${btnPrimary}">Repetir teste</a>`}
       <a href="#/historico" class="${btnSecondary}">Histórico</a>
       <a href="#/" class="${btnSecondary}">Início</a>
     </div>`);

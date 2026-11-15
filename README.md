@@ -27,6 +27,18 @@ Abra <http://localhost:8000>. Para experimentar o GIA com tempos curtos use
 <http://localhost:8000/#/gia?tempo=20> (20 segundos por subteste). Os resultados em modo de
 teste não ficam guardados no histórico.
 
+## Treino por secções (GIA)
+
+Além do teste completo, o GIA pode ser treinado só nas secções escolhidas. Comece pelo link
+**Treinar secções** no cartão do GIA no ecrã inicial, ou abra diretamente, por exemplo,
+`#/gia?secoes=numerica,palavras` (com `secoes=` vazio abre o seletor de secções).
+
+- Estes treinos ficam guardados à parte, em `localStorage` na chave `thomas-sim:v1:gia-parcial`
+  (máximo de 50); o histórico dos testes completos não é alterado.
+- Nas secções treinadas são preferidas as perguntas ainda não vistas nos treinos recentes.
+- A página `#/historico/gia-secoes` compara a evolução de cada secção (pontuação e precisão),
+  com o teste completo como linha de referência.
+
 ## Publicar no GitHub Pages
 
 1. Faça push para o GitHub.

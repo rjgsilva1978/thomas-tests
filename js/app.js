@@ -2,13 +2,14 @@
 
 import { render, esc, setTestMode, fmtDate, pageHeader, btnPrimary, btnSecondary, card } from './lib/dom.js';
 import { destroyCharts, makeChart, theme } from './lib/charts.js';
-import { listAttempts, lastAttempt, getAttempt, clearHistory } from './store.js';
+import { listAttempts, lastAttempt, getAttempt, clearHistory, listPartials, clearPartials } from './store.js';
 import * as gia from './engines/gia.js';
 import * as ppa from './engines/ppa.js';
 import * as hpti from './engines/hpti.js';
 import * as giaResults from './results/gia.js';
 import * as ppaResults from './results/ppa.js';
 import * as hptiResults from './results/hpti.js';
+import * as giaCompare from './results/gia-compare.js';
 
 const RESULTS = { gia: giaResults, ppa: ppaResults, hpti: hptiResults };
 
@@ -106,6 +107,7 @@ async function route() {
     const m = path.match(/^\/resultados\/(.+)$/);
     if (m) return showResult(decodeURIComponent(m[1]), ctx);
 
+    if (path === '/historico/gia-secoes') return giaCompare.show(ctx);
     if (path === '/historico') return showHistory();
     return showHome();
   } catch (err) {
@@ -144,6 +146,7 @@ function showHome() {
         <p class="mt-3 flex-1 text-sm text-slate-600 dark:text-slate-400">${esc(t.descricao)}</p>
         ${lastHtml}
         <a href="#/${t.key}" class="${btnPrimary} mt-4">Iniciar treino</a>
+        ${t.key === 'gia' ? `<a href="#/gia?secoes=" class="${btnSecondary} mt-2">Treinar secções</a>` : ''}
       </article>`;
   }).join('');
 
@@ -182,6 +185,18 @@ function showHistory() {
       <td class="whitespace-nowrap py-2 pl-1 text-right"><a class="font-medium text-brand-600 hover:underline dark:text-brand-100" href="#/resultados/${esc(a.id)}">Ver</a></td>
     </tr>`).join('');
 
+  const partials = listPartials();
+  const partialRows = partials.map((a) => {
+    const r = a.resultado;
+    return `
+    <tr class="border-t border-slate-100 dark:border-slate-800">
+      <td class="py-2 pr-3 sm:whitespace-nowrap">${esc(fmtDate(a.data))}</td>
+      <td class="py-2 pr-3 font-medium">${esc(r.ordem.map((s) => r.subtestes[s]?.nome || s).join(', '))}</td>
+      <td class="py-2 pr-3 text-slate-600 dark:text-slate-400">${esc(giaResults.resumo(r))}</td>
+      <td class="whitespace-nowrap py-2 pl-1 text-right"><a class="font-medium text-brand-600 hover:underline dark:text-brand-100" href="#/resultados/${esc(a.id)}">Ver</a></td>
+    </tr>`;
+  }).join('');
+
   const giaRuns = attempts.filter((a) => a.teste === 'gia').reverse();
 
   const root = render(`
@@ -201,7 +216,30 @@ function showHistory() {
         </div>
         <button id="clear" class="${btnSecondary} mt-5 text-sm">Limpar histórico</button>`
       : `<p class="text-slate-500">Ainda não há tentativas. <a href="#/" class="text-brand-600 underline dark:text-brand-100">Escolha um teste</a> para começar.</p>`}
+    </section>
+
+    <section class="${card} mt-6">
+      <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 class="font-semibold">Treino por secções</h2>
+        <a href="#/historico/gia-secoes" class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-100">Comparar secções</a>
+      </div>
+      ${partials.length ? `
+        <div class="mt-3 overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="text-xs uppercase tracking-wide text-slate-400"><tr><th class="pb-2 pr-3">Data</th><th class="pb-2 pr-3">Secções</th><th class="pb-2 pr-3">Resultado</th><th class="pb-2"></th></tr></thead>
+            <tbody>${partialRows}</tbody>
+          </table>
+        </div>
+        <button id="clear-partials" class="${btnSecondary} mt-5 text-sm">Limpar treino</button>`
+      : `<p class="mt-3 text-slate-500">Ainda não há treinos por secções. <a href="#/gia?secoes=" class="text-brand-600 underline dark:text-brand-100">Treinar secções</a>.</p>`}
     </section>`);
+
+  root.querySelector('#clear-partials')?.addEventListener('click', () => {
+    if (confirm('Apagar todos os treinos por secções? O histórico de testes completos não é afetado. Esta ação não pode ser desfeita.')) {
+      clearPartials();
+      showHistory();
+    }
+  });
 
   root.querySelector('#clear')?.addEventListener('click', () => {
     if (confirm('Apagar todas as tentativas guardadas? Esta ação não pode ser desfeita.')) {
